@@ -19,7 +19,7 @@ int main(){
     srand(time(0));
     int secretNum=(rand()%high)+1;
     int guessTimes=0;
-    printf("Let's play the guess the number game!"
+    printf("Let's play the guess the number game!\n"
            "You have %d chances!\n",number);
     while(guessTimes<number){
         guessTimes++;
@@ -35,7 +35,8 @@ int main(){
         }else{
             printf("Your guess is greater than the number\n");
         }
+        printf("You still have %d chance(s)!\n",number-guessTimes);
     }
-    printf("Better luck next time!");
+    printf("Better luck next time!\n");
     return 0;
 }
