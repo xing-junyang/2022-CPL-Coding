@@ -38,5 +38,6 @@ int main(){
         printf("You still have %d chance(s)!\n",number-guessTimes);
     }
     printf("Better luck next time!\n");
+    printf("Written by xjy\n");
     return 0;
 }
