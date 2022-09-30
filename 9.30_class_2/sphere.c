@@ -14,7 +14,7 @@ const double PI = 3.14159265358;
 
 int main(){
     int radius = 100;
-    printf("%15.4lf = circumference\n", radius*radius*4*PI);
-    printf("%15.4lf = area\n",PI*radius*radius*radius*4/3);
+    printf("%-15.4lf = circumference\n", radius*radius*4*PI);
+    printf("%-15.4lf = area\n",PI*radius*radius*radius*4/3);
     return 0;
 }
