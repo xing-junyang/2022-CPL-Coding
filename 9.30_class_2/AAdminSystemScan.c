@@ -13,10 +13,10 @@
 #include <ctype.h>
 
 int main() {
-    char firstName[] = "Tayu";
-    char lastName[] = "Lo";
+    char firstName[10] = "Tayu";
+    char lastName[10] = "Lo";
     char gender = 'n';
-    scanf("%s%s %c", firstName, lastName, &gender);
+    scanf("%9s%9s %c", firstName, lastName, &gender);
     int birthYear = 1954;
     int birthMonth = 20;
     int birthDay = 7;
@@ -28,6 +28,7 @@ int main() {
     scanf("%d%d%d", &cScore, &musicScore, &medicineScore);
     double mean = (cScore + musicScore + medicineScore) / 3.0;
     double sd = sqrt(pow(cScore - mean, 2) + pow(musicScore - mean, 2) + pow(medicineScore - mean, 2) / 3.0);
+    scanf("%*lf%*lf",mean,sd);//read but not assign
     int rank = 10;
     scanf("%d%%", &rank);
 
