@@ -1,1 +1,1 @@
-add_executable("circle circle.c")
+add_executable(circle circle.c)
