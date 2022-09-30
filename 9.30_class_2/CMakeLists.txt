@@ -1,1 +1,1 @@
-add_executable(Admin AAdminSystem.c)
+add_executable(Admin AAdminSystemScan.c)
