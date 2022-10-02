@@ -1,23 +1,19 @@
 /**************************************************
 --------------- PROGRAM INFORMATION ---------------
- Project Name: A-change
- File Name: A-change.c
+ Project Name: Time
+ File Name: C-Time.c
  Author: xingjunyang
  Email: xingjunyang@smail.nju.edu.cn
  Date of Creation: 2022/10/2
- Brief description of this program:
+ Brief description of this program: ...
 ----------------------- END -----------------------
 **************************************************/
 #include <stdio.h>
 
-const int moneyAvailable[5]={50,20,10,5,1};
-
 int main(){
-    int money;
-    scanf("%d",&money);
-    for(int i=0;i<5;i++){
-        printf("%d\n",money/moneyAvailable[i]);
-        money%=moneyAvailable[i];
-    }
+    char month[15],weekday[10];
+    int day,year,hour,minute,second;
+    scanf("%s %d%d%s %d%d%d",month,&day,&year,weekday,&hour,&minute,&second);
+    printf("%.3s %.3s %.2d %.2d:%.2d:%.2d %.4d",weekday,month,day,hour,minute,second,year);
     return 0;
 }

@@ -1,0 +1,1 @@
+add_executable(C-Time C-Time.c)
