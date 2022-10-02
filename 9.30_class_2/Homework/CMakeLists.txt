@@ -1,1 +1,1 @@
-add_executable(C-Time C-Time.c)
+add_executable(F-Gravity F-Gravity.c)
