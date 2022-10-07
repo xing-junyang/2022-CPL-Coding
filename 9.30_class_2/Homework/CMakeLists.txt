@@ -1,1 +1,1 @@
-add_executable(F-Gravity F-Gravity.c)
+add_executable(H-Equation H-Equation.c)

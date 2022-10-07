@@ -1,1 +1,1 @@
-add_executable(min min.c)
+add_executable(minOfASetOfNumbers minOfASetOfNumbers.c)
