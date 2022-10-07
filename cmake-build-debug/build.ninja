@@ -66,63 +66,63 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 # =============================================================================
 
 # =============================================================================
-# Object build statements for EXECUTABLE target minOfASetOfNumbers
+# Object build statements for EXECUTABLE target obstacle
 
 
 #############################################
-# Order-only phony target for minOfASetOfNumbers
+# Order-only phony target for obstacle
 
-build cmake_object_order_depends_target_minOfASetOfNumbers: phony || 10.7_class_3/CMakeFiles/minOfASetOfNumbers.dir
+build cmake_object_order_depends_target_obstacle: phony || 10.7_class_3/Homework/CMakeFiles/obstacle.dir
 
-build 10.7_class_3/CMakeFiles/minOfASetOfNumbers.dir/minOfASetOfNumbers.c.o: C_COMPILER__minOfASetOfNumbers_Debug /Users/xingjunyang/CLionProjects/2022-CPL-Coding/10.7_class_3/minOfASetOfNumbers.c || cmake_object_order_depends_target_minOfASetOfNumbers
-  DEP_FILE = 10.7_class_3/CMakeFiles/minOfASetOfNumbers.dir/minOfASetOfNumbers.c.o.d
+build 10.7_class_3/Homework/CMakeFiles/obstacle.dir/obstacle.c.o: C_COMPILER__obstacle_Debug /Users/xingjunyang/CLionProjects/2022-CPL-Coding/10.7_class_3/Homework/obstacle.c || cmake_object_order_depends_target_obstacle
+  DEP_FILE = 10.7_class_3/Homework/CMakeFiles/obstacle.dir/obstacle.c.o.d
   FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk -std=gnu11
-  OBJECT_DIR = 10.7_class_3/CMakeFiles/minOfASetOfNumbers.dir
-  OBJECT_FILE_DIR = 10.7_class_3/CMakeFiles/minOfASetOfNumbers.dir
+  OBJECT_DIR = 10.7_class_3/Homework/CMakeFiles/obstacle.dir
+  OBJECT_FILE_DIR = 10.7_class_3/Homework/CMakeFiles/obstacle.dir
 
 
 # =============================================================================
-# Link build statements for EXECUTABLE target minOfASetOfNumbers
+# Link build statements for EXECUTABLE target obstacle
 
 
 #############################################
-# Link the executable 10.7_class_3/minOfASetOfNumbers
+# Link the executable 10.7_class_3/Homework/obstacle
 
-build 10.7_class_3/minOfASetOfNumbers: C_EXECUTABLE_LINKER__minOfASetOfNumbers_Debug 10.7_class_3/CMakeFiles/minOfASetOfNumbers.dir/minOfASetOfNumbers.c.o
+build 10.7_class_3/Homework/obstacle: C_EXECUTABLE_LINKER__obstacle_Debug 10.7_class_3/Homework/CMakeFiles/obstacle.dir/obstacle.c.o
   FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk
-  OBJECT_DIR = 10.7_class_3/CMakeFiles/minOfASetOfNumbers.dir
+  OBJECT_DIR = 10.7_class_3/Homework/CMakeFiles/obstacle.dir
   POST_BUILD = :
   PRE_LINK = :
-  TARGET_FILE = 10.7_class_3/minOfASetOfNumbers
-  TARGET_PDB = minOfASetOfNumbers.dbg
+  TARGET_FILE = 10.7_class_3/Homework/obstacle
+  TARGET_PDB = obstacle.dbg
 
 
 #############################################
 # Utility command for edit_cache
 
-build 10.7_class_3/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
-  COMMAND = cd /Users/xingjunyang/CLionProjects/2022-CPL-Coding/cmake-build-debug/10.7_class_3 && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+build 10.7_class_3/Homework/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
+  COMMAND = cd /Users/xingjunyang/CLionProjects/2022-CPL-Coding/cmake-build-debug/10.7_class_3/Homework && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
   DESC = No interactive CMake dialog available...
   restat = 1
 
-build 10.7_class_3/edit_cache: phony 10.7_class_3/CMakeFiles/edit_cache.util
+build 10.7_class_3/Homework/edit_cache: phony 10.7_class_3/Homework/CMakeFiles/edit_cache.util
 
 
 #############################################
 # Utility command for rebuild_cache
 
-build 10.7_class_3/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = cd /Users/xingjunyang/CLionProjects/2022-CPL-Coding/cmake-build-debug/10.7_class_3 && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake --regenerate-during-build -S/Users/xingjunyang/CLionProjects/2022-CPL-Coding -B/Users/xingjunyang/CLionProjects/2022-CPL-Coding/cmake-build-debug
+build 10.7_class_3/Homework/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
+  COMMAND = cd /Users/xingjunyang/CLionProjects/2022-CPL-Coding/cmake-build-debug/10.7_class_3/Homework && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake --regenerate-during-build -S/Users/xingjunyang/CLionProjects/2022-CPL-Coding -B/Users/xingjunyang/CLionProjects/2022-CPL-Coding/cmake-build-debug
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
 
-build 10.7_class_3/rebuild_cache: phony 10.7_class_3/CMakeFiles/rebuild_cache.util
+build 10.7_class_3/Homework/rebuild_cache: phony 10.7_class_3/Homework/CMakeFiles/rebuild_cache.util
 
 # =============================================================================
 # Target aliases.
 
-build minOfASetOfNumbers: phony 10.7_class_3/minOfASetOfNumbers
+build obstacle: phony 10.7_class_3/Homework/obstacle
 
 # =============================================================================
 # Folder targets.
@@ -132,14 +132,14 @@ build minOfASetOfNumbers: phony 10.7_class_3/minOfASetOfNumbers
 #############################################
 # Folder: /Users/xingjunyang/CLionProjects/2022-CPL-Coding/cmake-build-debug
 
-build all: phony 10.7_class_3/all
+build all: phony 10.7_class_3/Homework/all
 
 # =============================================================================
 
 #############################################
-# Folder: /Users/xingjunyang/CLionProjects/2022-CPL-Coding/cmake-build-debug/10.7_class_3
+# Folder: /Users/xingjunyang/CLionProjects/2022-CPL-Coding/cmake-build-debug/10.7_class_3/Homework
 
-build 10.7_class_3/all: phony 10.7_class_3/minOfASetOfNumbers
+build 10.7_class_3/Homework/all: phony 10.7_class_3/Homework/obstacle
 
 # =============================================================================
 # Built-in targets
@@ -148,14 +148,14 @@ build 10.7_class_3/all: phony 10.7_class_3/minOfASetOfNumbers
 #############################################
 # Re-run CMake if any of its inputs changed.
 
-build build.ninja: RERUN_CMAKE | ../10.7_class_3/CMakeLists.txt ../CMakeLists.txt /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeCInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeCommonLanguageInclude.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeGenericSystem.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeInitializeConfigs.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeLanguageInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeSystemSpecificInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeSystemSpecificInitialize.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/AppleClang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/CMakeCommonCompilerMacros.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/Clang.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/GNU.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/Apple-AppleClang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/Apple-Clang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/Apple-Clang.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/Darwin-Initialize.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/Darwin.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/UnixPaths.cmake CMakeCache.txt CMakeFiles/3.23.2/CMakeCCompiler.cmake CMakeFiles/3.23.2/CMakeSystem.cmake
+build build.ninja: RERUN_CMAKE | ../10.7_class_3/Homework/CMakeLists.txt ../CMakeLists.txt /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeCInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeCommonLanguageInclude.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeGenericSystem.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeInitializeConfigs.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeLanguageInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeSystemSpecificInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeSystemSpecificInitialize.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/AppleClang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/CMakeCommonCompilerMacros.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/Clang.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/GNU.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/Apple-AppleClang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/Apple-Clang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/Apple-Clang.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/Darwin-Initialize.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/Darwin.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/UnixPaths.cmake CMakeCache.txt CMakeFiles/3.23.2/CMakeCCompiler.cmake CMakeFiles/3.23.2/CMakeSystem.cmake
   pool = console
 
 
 #############################################
 # A missing CMake input file is not an error.
 
-build ../10.7_class_3/CMakeLists.txt ../CMakeLists.txt /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeCInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeCommonLanguageInclude.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeGenericSystem.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeInitializeConfigs.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeLanguageInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeSystemSpecificInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeSystemSpecificInitialize.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/AppleClang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/CMakeCommonCompilerMacros.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/Clang.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/GNU.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/Apple-AppleClang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/Apple-Clang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/Apple-Clang.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/Darwin-Initialize.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/Darwin.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/UnixPaths.cmake CMakeCache.txt CMakeFiles/3.23.2/CMakeCCompiler.cmake CMakeFiles/3.23.2/CMakeSystem.cmake: phony
+build ../10.7_class_3/Homework/CMakeLists.txt ../CMakeLists.txt /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeCInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeCommonLanguageInclude.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeGenericSystem.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeInitializeConfigs.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeLanguageInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeSystemSpecificInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeSystemSpecificInitialize.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/AppleClang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/CMakeCommonCompilerMacros.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/Clang.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/GNU.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/Apple-AppleClang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/Apple-Clang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/Apple-Clang.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/Darwin-Initialize.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/Darwin.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/UnixPaths.cmake CMakeCache.txt CMakeFiles/3.23.2/CMakeCCompiler.cmake CMakeFiles/3.23.2/CMakeSystem.cmake: phony
 
 
 #############################################

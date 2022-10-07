@@ -3,4 +3,4 @@ project(2022_CPL_Coding C)
 
 set(CMAKE_C_STANDARD 11)
 
-add_subdirectory(10.7_class_3)
+add_subdirectory(10.7_class_3/Homework)

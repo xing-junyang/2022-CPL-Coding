@@ -1,5 +1,5 @@
 /Users/xingjunyang/CLionProjects/2022-CPL-Coding/cmake-build-debug/CMakeFiles/edit_cache.dir
 /Users/xingjunyang/CLionProjects/2022-CPL-Coding/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-/Users/xingjunyang/CLionProjects/2022-CPL-Coding/cmake-build-debug/10.7_class_3/CMakeFiles/minOfASetOfNumbers.dir
-/Users/xingjunyang/CLionProjects/2022-CPL-Coding/cmake-build-debug/10.7_class_3/CMakeFiles/edit_cache.dir
-/Users/xingjunyang/CLionProjects/2022-CPL-Coding/cmake-build-debug/10.7_class_3/CMakeFiles/rebuild_cache.dir
+/Users/xingjunyang/CLionProjects/2022-CPL-Coding/cmake-build-debug/10.7_class_3/Homework/CMakeFiles/obstacle.dir
+/Users/xingjunyang/CLionProjects/2022-CPL-Coding/cmake-build-debug/10.7_class_3/Homework/CMakeFiles/edit_cache.dir
+/Users/xingjunyang/CLionProjects/2022-CPL-Coding/cmake-build-debug/10.7_class_3/Homework/CMakeFiles/rebuild_cache.dir
