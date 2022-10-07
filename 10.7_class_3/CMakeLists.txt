@@ -1,0 +1,1 @@
+add_executable(min min.c)
