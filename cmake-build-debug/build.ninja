@@ -245,6 +245,37 @@ build 10.14_class_4/stars: C_EXECUTABLE_LINKER__stars_Debug 10.14_class_4/CMakeF
   TARGET_FILE = 10.14_class_4/stars
   TARGET_PDB = stars.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target prime
+
+
+#############################################
+# Order-only phony target for prime
+
+build cmake_object_order_depends_target_prime: phony || 10.14_class_4/CMakeFiles/prime.dir
+
+build 10.14_class_4/CMakeFiles/prime.dir/prime.c.o: C_COMPILER__prime_Debug /Users/xingjunyang/CLionProjects/2022-CPL-Coding/10.14_class_4/prime.c || cmake_object_order_depends_target_prime
+  DEP_FILE = 10.14_class_4/CMakeFiles/prime.dir/prime.c.o.d
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk -std=gnu11
+  OBJECT_DIR = 10.14_class_4/CMakeFiles/prime.dir
+  OBJECT_FILE_DIR = 10.14_class_4/CMakeFiles/prime.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target prime
+
+
+#############################################
+# Link the executable 10.14_class_4/prime
+
+build 10.14_class_4/prime: C_EXECUTABLE_LINKER__prime_Debug 10.14_class_4/CMakeFiles/prime.dir/prime.c.o
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk
+  OBJECT_DIR = 10.14_class_4/CMakeFiles/prime.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = 10.14_class_4/prime
+  TARGET_PDB = prime.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -275,6 +306,8 @@ build Inverse2: phony 10.7_class_3/Homework/Inverse2
 
 build obstacle: phony 10.7_class_3/Homework/obstacle
 
+build prime: phony 10.14_class_4/prime
+
 build single: phony 10.7_class_3/Homework/single
 
 build stars: phony 10.14_class_4/stars
@@ -294,7 +327,7 @@ build all: phony 10.7_class_3/Homework/all 10.14_class_4/Homework/all 10.14_clas
 #############################################
 # Folder: /Users/xingjunyang/CLionProjects/2022-CPL-Coding/cmake-build-debug/10.14_class_4
 
-build 10.14_class_4/all: phony 10.14_class_4/stars
+build 10.14_class_4/all: phony 10.14_class_4/stars 10.14_class_4/prime
 
 # =============================================================================
 

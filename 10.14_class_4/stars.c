@@ -23,7 +23,9 @@ int main() {
     for (int i = 1; i <= lines; i++) {
         printChar(' ', lines - i);
         printChar('*', 2 * i - 1);
-        printf("\n");
+        if (i != lines) {
+            printf("\n");
+        }
     }
     return 0;
 }
