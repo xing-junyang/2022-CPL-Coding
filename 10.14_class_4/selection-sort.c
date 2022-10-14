@@ -10,39 +10,39 @@
 **************************************************/
 #include <stdio.h>
 
-const int maxArrayLength=100;
+const int maxArrayLength = 100;
 int array[maxArrayLength];
 
-void swap(int *a, int *b){
+void swap(int *a, int *b) {
     int tmp;
-    tmp=*b;
-    *b=*a;
-    *a=tmp;
-    return ;
+    tmp = *b;
+    *b = *a;
+    *a = tmp;
+    return;
 }
 
-int main(){
+int main() {
     int n;
-    scanf("%d",&n);
-    for(int i=1;i<=n;i++){
-        scanf("%d",&array[i]);
+    scanf("%d", &n);
+    for (int i = 1; i <= n; i++) {
+        scanf("%d", &array[i]);
     }
 
-    for(int i=1;i<=n;i++){
+    for (int i = 1; i <= n; i++) {
         printf("%d ", array[i]);
     }
 
     //selection sort
-    for(int i=1;i<=n-1;i++){
-        for(int j=i;j<=n;j++){
-            if(array[i]>array[j]){
-                swap(&array[i],&array[j]);
+    for (int i = 1; i <= n - 1; i++) {
+        for (int j = i; j <= n; j++) {
+            if (array[i] > array[j]) {
+                swap(&array[i], &array[j]);
             }
         }
     }
     //end of selection sort
 
-    for(int i=1;i<=n;i++){
+    for (int i = 1; i <= n; i++) {
         printf("%d ", array[i]);
     }
 
