@@ -10,7 +10,7 @@
 **************************************************/
 #include <stdio.h>
 
-int prime[1000000];
+int prime[10000000];
 
 void calcPrime(int n) {
     for (int i = 2; i <= n; i++) {

@@ -276,6 +276,37 @@ build 10.14_class_4/prime: C_EXECUTABLE_LINKER__prime_Debug 10.14_class_4/CMakeF
   TARGET_FILE = 10.14_class_4/prime
   TARGET_PDB = prime.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target binary-search
+
+
+#############################################
+# Order-only phony target for binary-search
+
+build cmake_object_order_depends_target_binary-search: phony || 10.14_class_4/CMakeFiles/binary-search.dir
+
+build 10.14_class_4/CMakeFiles/binary-search.dir/binary-search.c.o: C_COMPILER__binary-search_Debug /Users/xingjunyang/CLionProjects/2022-CPL-Coding/10.14_class_4/binary-search.c || cmake_object_order_depends_target_binary-search
+  DEP_FILE = 10.14_class_4/CMakeFiles/binary-search.dir/binary-search.c.o.d
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk -std=gnu11
+  OBJECT_DIR = 10.14_class_4/CMakeFiles/binary-search.dir
+  OBJECT_FILE_DIR = 10.14_class_4/CMakeFiles/binary-search.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target binary-search
+
+
+#############################################
+# Link the executable 10.14_class_4/binary-search
+
+build 10.14_class_4/binary-search: C_EXECUTABLE_LINKER__binary-search_Debug 10.14_class_4/CMakeFiles/binary-search.dir/binary-search.c.o
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk
+  OBJECT_DIR = 10.14_class_4/CMakeFiles/binary-search.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = 10.14_class_4/binary-search
+  TARGET_PDB = binary-search.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -304,6 +335,8 @@ build 10.14_class_4/rebuild_cache: phony 10.14_class_4/CMakeFiles/rebuild_cache.
 
 build Inverse2: phony 10.7_class_3/Homework/Inverse2
 
+build binary-search: phony 10.14_class_4/binary-search
+
 build obstacle: phony 10.7_class_3/Homework/obstacle
 
 build prime: phony 10.14_class_4/prime
@@ -327,7 +360,7 @@ build all: phony 10.7_class_3/Homework/all 10.14_class_4/Homework/all 10.14_clas
 #############################################
 # Folder: /Users/xingjunyang/CLionProjects/2022-CPL-Coding/cmake-build-debug/10.14_class_4
 
-build 10.14_class_4/all: phony 10.14_class_4/stars 10.14_class_4/prime
+build 10.14_class_4/all: phony 10.14_class_4/stars 10.14_class_4/prime 10.14_class_4/binary-search
 
 # =============================================================================
 
