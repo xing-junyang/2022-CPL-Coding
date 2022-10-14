@@ -7,5 +7,6 @@
 /Users/xingjunyang/CLionProjects/2022-CPL-Coding/cmake-build-debug/10.7_class_3/Homework/CMakeFiles/rebuild_cache.dir
 /Users/xingjunyang/CLionProjects/2022-CPL-Coding/cmake-build-debug/10.14_class_4/Homework/CMakeFiles/edit_cache.dir
 /Users/xingjunyang/CLionProjects/2022-CPL-Coding/cmake-build-debug/10.14_class_4/Homework/CMakeFiles/rebuild_cache.dir
+/Users/xingjunyang/CLionProjects/2022-CPL-Coding/cmake-build-debug/10.14_class_4/CMakeFiles/stars.dir
 /Users/xingjunyang/CLionProjects/2022-CPL-Coding/cmake-build-debug/10.14_class_4/CMakeFiles/edit_cache.dir
 /Users/xingjunyang/CLionProjects/2022-CPL-Coding/cmake-build-debug/10.14_class_4/CMakeFiles/rebuild_cache.dir
