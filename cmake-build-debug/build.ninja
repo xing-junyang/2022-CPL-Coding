@@ -307,6 +307,68 @@ build 10.14_class_4/binary-search: C_EXECUTABLE_LINKER__binary-search_Debug 10.1
   TARGET_FILE = 10.14_class_4/binary-search
   TARGET_PDB = binary-search.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target digit
+
+
+#############################################
+# Order-only phony target for digit
+
+build cmake_object_order_depends_target_digit: phony || 10.14_class_4/CMakeFiles/digit.dir
+
+build 10.14_class_4/CMakeFiles/digit.dir/digit.c.o: C_COMPILER__digit_Debug /Users/xingjunyang/CLionProjects/2022-CPL-Coding/10.14_class_4/digit.c || cmake_object_order_depends_target_digit
+  DEP_FILE = 10.14_class_4/CMakeFiles/digit.dir/digit.c.o.d
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk -std=gnu11
+  OBJECT_DIR = 10.14_class_4/CMakeFiles/digit.dir
+  OBJECT_FILE_DIR = 10.14_class_4/CMakeFiles/digit.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target digit
+
+
+#############################################
+# Link the executable 10.14_class_4/digit
+
+build 10.14_class_4/digit: C_EXECUTABLE_LINKER__digit_Debug 10.14_class_4/CMakeFiles/digit.dir/digit.c.o
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk
+  OBJECT_DIR = 10.14_class_4/CMakeFiles/digit.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = 10.14_class_4/digit
+  TARGET_PDB = digit.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target selection-sort
+
+
+#############################################
+# Order-only phony target for selection-sort
+
+build cmake_object_order_depends_target_selection-sort: phony || 10.14_class_4/CMakeFiles/selection-sort.dir
+
+build 10.14_class_4/CMakeFiles/selection-sort.dir/selection-sort.c.o: C_COMPILER__selection-sort_Debug /Users/xingjunyang/CLionProjects/2022-CPL-Coding/10.14_class_4/selection-sort.c || cmake_object_order_depends_target_selection-sort
+  DEP_FILE = 10.14_class_4/CMakeFiles/selection-sort.dir/selection-sort.c.o.d
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk -std=gnu11
+  OBJECT_DIR = 10.14_class_4/CMakeFiles/selection-sort.dir
+  OBJECT_FILE_DIR = 10.14_class_4/CMakeFiles/selection-sort.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target selection-sort
+
+
+#############################################
+# Link the executable 10.14_class_4/selection-sort
+
+build 10.14_class_4/selection-sort: C_EXECUTABLE_LINKER__selection-sort_Debug 10.14_class_4/CMakeFiles/selection-sort.dir/selection-sort.c.o
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk
+  OBJECT_DIR = 10.14_class_4/CMakeFiles/selection-sort.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = 10.14_class_4/selection-sort
+  TARGET_PDB = selection-sort.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -337,9 +399,13 @@ build Inverse2: phony 10.7_class_3/Homework/Inverse2
 
 build binary-search: phony 10.14_class_4/binary-search
 
+build digit: phony 10.14_class_4/digit
+
 build obstacle: phony 10.7_class_3/Homework/obstacle
 
 build prime: phony 10.14_class_4/prime
+
+build selection-sort: phony 10.14_class_4/selection-sort
 
 build single: phony 10.7_class_3/Homework/single
 
@@ -360,7 +426,7 @@ build all: phony 10.7_class_3/Homework/all 10.14_class_4/Homework/all 10.14_clas
 #############################################
 # Folder: /Users/xingjunyang/CLionProjects/2022-CPL-Coding/cmake-build-debug/10.14_class_4
 
-build 10.14_class_4/all: phony 10.14_class_4/stars 10.14_class_4/prime 10.14_class_4/binary-search
+build 10.14_class_4/all: phony 10.14_class_4/stars 10.14_class_4/prime 10.14_class_4/binary-search 10.14_class_4/digit 10.14_class_4/selection-sort
 
 # =============================================================================
 

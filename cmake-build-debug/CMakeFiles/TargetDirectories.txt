@@ -10,5 +10,7 @@
 /Users/xingjunyang/CLionProjects/2022-CPL-Coding/cmake-build-debug/10.14_class_4/CMakeFiles/stars.dir
 /Users/xingjunyang/CLionProjects/2022-CPL-Coding/cmake-build-debug/10.14_class_4/CMakeFiles/prime.dir
 /Users/xingjunyang/CLionProjects/2022-CPL-Coding/cmake-build-debug/10.14_class_4/CMakeFiles/binary-search.dir
+/Users/xingjunyang/CLionProjects/2022-CPL-Coding/cmake-build-debug/10.14_class_4/CMakeFiles/digit.dir
+/Users/xingjunyang/CLionProjects/2022-CPL-Coding/cmake-build-debug/10.14_class_4/CMakeFiles/selection-sort.dir
 /Users/xingjunyang/CLionProjects/2022-CPL-Coding/cmake-build-debug/10.14_class_4/CMakeFiles/edit_cache.dir
 /Users/xingjunyang/CLionProjects/2022-CPL-Coding/cmake-build-debug/10.14_class_4/CMakeFiles/rebuild_cache.dir
