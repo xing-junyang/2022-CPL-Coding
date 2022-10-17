@@ -79,7 +79,7 @@ rule C_EXECUTABLE_LINKER__Inverse2_Debug
 #############################################
 # Rule for compiling C files.
 
-rule C_COMPILER__stars_Debug
+rule C_COMPILER__flip_Debug
   depfile = $DEP_FILE
   deps = gcc
   command = /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
@@ -89,7 +89,7 @@ rule C_COMPILER__stars_Debug
 #############################################
 # Rule for linking C executable.
 
-rule C_EXECUTABLE_LINKER__stars_Debug
+rule C_EXECUTABLE_LINKER__flip_Debug
   command = $PRE_LINK && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $FLAGS -Wl,-search_paths_first -Wl,-headerpad_max_install_names $LINK_FLAGS $in -o $TARGET_FILE $LINK_PATH $LINK_LIBRARIES && $POST_BUILD
   description = Linking C executable $TARGET_FILE
   restat = $RESTAT
@@ -98,7 +98,7 @@ rule C_EXECUTABLE_LINKER__stars_Debug
 #############################################
 # Rule for compiling C files.
 
-rule C_COMPILER__prime_Debug
+rule C_COMPILER__statistics_Debug
   depfile = $DEP_FILE
   deps = gcc
   command = /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
@@ -108,7 +108,7 @@ rule C_COMPILER__prime_Debug
 #############################################
 # Rule for linking C executable.
 
-rule C_EXECUTABLE_LINKER__prime_Debug
+rule C_EXECUTABLE_LINKER__statistics_Debug
   command = $PRE_LINK && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $FLAGS -Wl,-search_paths_first -Wl,-headerpad_max_install_names $LINK_FLAGS $in -o $TARGET_FILE $LINK_PATH $LINK_LIBRARIES && $POST_BUILD
   description = Linking C executable $TARGET_FILE
   restat = $RESTAT
@@ -117,7 +117,7 @@ rule C_EXECUTABLE_LINKER__prime_Debug
 #############################################
 # Rule for compiling C files.
 
-rule C_COMPILER__binary-search_Debug
+rule C_COMPILER__josephus_Debug
   depfile = $DEP_FILE
   deps = gcc
   command = /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
@@ -127,7 +127,7 @@ rule C_COMPILER__binary-search_Debug
 #############################################
 # Rule for linking C executable.
 
-rule C_EXECUTABLE_LINKER__binary-search_Debug
+rule C_EXECUTABLE_LINKER__josephus_Debug
   command = $PRE_LINK && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $FLAGS -Wl,-search_paths_first -Wl,-headerpad_max_install_names $LINK_FLAGS $in -o $TARGET_FILE $LINK_PATH $LINK_LIBRARIES && $POST_BUILD
   description = Linking C executable $TARGET_FILE
   restat = $RESTAT
@@ -136,7 +136,7 @@ rule C_EXECUTABLE_LINKER__binary-search_Debug
 #############################################
 # Rule for compiling C files.
 
-rule C_COMPILER__digit_Debug
+rule C_COMPILER__decimal_Debug
   depfile = $DEP_FILE
   deps = gcc
   command = /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
@@ -146,7 +146,7 @@ rule C_COMPILER__digit_Debug
 #############################################
 # Rule for linking C executable.
 
-rule C_EXECUTABLE_LINKER__digit_Debug
+rule C_EXECUTABLE_LINKER__decimal_Debug
   command = $PRE_LINK && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $FLAGS -Wl,-search_paths_first -Wl,-headerpad_max_install_names $LINK_FLAGS $in -o $TARGET_FILE $LINK_PATH $LINK_LIBRARIES && $POST_BUILD
   description = Linking C executable $TARGET_FILE
   restat = $RESTAT
@@ -155,7 +155,7 @@ rule C_EXECUTABLE_LINKER__digit_Debug
 #############################################
 # Rule for compiling C files.
 
-rule C_COMPILER__selection-sort_Debug
+rule C_COMPILER__Quick-sort_Debug
   depfile = $DEP_FILE
   deps = gcc
   command = /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
@@ -165,7 +165,7 @@ rule C_COMPILER__selection-sort_Debug
 #############################################
 # Rule for linking C executable.
 
-rule C_EXECUTABLE_LINKER__selection-sort_Debug
+rule C_EXECUTABLE_LINKER__Quick-sort_Debug
   command = $PRE_LINK && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $FLAGS -Wl,-search_paths_first -Wl,-headerpad_max_install_names $LINK_FLAGS $in -o $TARGET_FILE $LINK_PATH $LINK_LIBRARIES && $POST_BUILD
   description = Linking C executable $TARGET_FILE
   restat = $RESTAT

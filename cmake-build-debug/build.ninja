@@ -186,6 +186,192 @@ build 10.7_class_3/Homework/rebuild_cache: phony 10.7_class_3/Homework/CMakeFile
 # /Users/xingjunyang/CLionProjects/2022-CPL-Coding/CMakeLists.txt
 # =============================================================================
 
+# =============================================================================
+# Object build statements for EXECUTABLE target flip
+
+
+#############################################
+# Order-only phony target for flip
+
+build cmake_object_order_depends_target_flip: phony || 10.14_class_4/Homework/CMakeFiles/flip.dir
+
+build 10.14_class_4/Homework/CMakeFiles/flip.dir/flip.c.o: C_COMPILER__flip_Debug /Users/xingjunyang/CLionProjects/2022-CPL-Coding/10.14_class_4/Homework/flip.c || cmake_object_order_depends_target_flip
+  DEP_FILE = 10.14_class_4/Homework/CMakeFiles/flip.dir/flip.c.o.d
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk -std=gnu11
+  OBJECT_DIR = 10.14_class_4/Homework/CMakeFiles/flip.dir
+  OBJECT_FILE_DIR = 10.14_class_4/Homework/CMakeFiles/flip.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target flip
+
+
+#############################################
+# Link the executable 10.14_class_4/Homework/flip
+
+build 10.14_class_4/Homework/flip: C_EXECUTABLE_LINKER__flip_Debug 10.14_class_4/Homework/CMakeFiles/flip.dir/flip.c.o
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk
+  OBJECT_DIR = 10.14_class_4/Homework/CMakeFiles/flip.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = 10.14_class_4/Homework/flip
+  TARGET_PDB = flip.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target statistics
+
+
+#############################################
+# Order-only phony target for statistics
+
+build cmake_object_order_depends_target_statistics: phony || 10.14_class_4/Homework/CMakeFiles/statistics.dir
+
+build 10.14_class_4/Homework/CMakeFiles/statistics.dir/statistics.c.o: C_COMPILER__statistics_Debug /Users/xingjunyang/CLionProjects/2022-CPL-Coding/10.14_class_4/Homework/statistics.c || cmake_object_order_depends_target_statistics
+  DEP_FILE = 10.14_class_4/Homework/CMakeFiles/statistics.dir/statistics.c.o.d
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk -std=gnu11
+  OBJECT_DIR = 10.14_class_4/Homework/CMakeFiles/statistics.dir
+  OBJECT_FILE_DIR = 10.14_class_4/Homework/CMakeFiles/statistics.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target statistics
+
+
+#############################################
+# Link the executable 10.14_class_4/Homework/statistics
+
+build 10.14_class_4/Homework/statistics: C_EXECUTABLE_LINKER__statistics_Debug 10.14_class_4/Homework/CMakeFiles/statistics.dir/statistics.c.o
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk
+  OBJECT_DIR = 10.14_class_4/Homework/CMakeFiles/statistics.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = 10.14_class_4/Homework/statistics
+  TARGET_PDB = statistics.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target josephus
+
+
+#############################################
+# Order-only phony target for josephus
+
+build cmake_object_order_depends_target_josephus: phony || 10.14_class_4/Homework/CMakeFiles/josephus.dir
+
+build 10.14_class_4/Homework/CMakeFiles/josephus.dir/josephus.c.o: C_COMPILER__josephus_Debug /Users/xingjunyang/CLionProjects/2022-CPL-Coding/10.14_class_4/Homework/josephus.c || cmake_object_order_depends_target_josephus
+  DEP_FILE = 10.14_class_4/Homework/CMakeFiles/josephus.dir/josephus.c.o.d
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk -std=gnu11
+  OBJECT_DIR = 10.14_class_4/Homework/CMakeFiles/josephus.dir
+  OBJECT_FILE_DIR = 10.14_class_4/Homework/CMakeFiles/josephus.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target josephus
+
+
+#############################################
+# Link the executable 10.14_class_4/Homework/josephus
+
+build 10.14_class_4/Homework/josephus: C_EXECUTABLE_LINKER__josephus_Debug 10.14_class_4/Homework/CMakeFiles/josephus.dir/josephus.c.o
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk
+  OBJECT_DIR = 10.14_class_4/Homework/CMakeFiles/josephus.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = 10.14_class_4/Homework/josephus
+  TARGET_PDB = josephus.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target decimal
+
+
+#############################################
+# Order-only phony target for decimal
+
+build cmake_object_order_depends_target_decimal: phony || 10.14_class_4/Homework/CMakeFiles/decimal.dir
+
+build 10.14_class_4/Homework/CMakeFiles/decimal.dir/decimal.c.o: C_COMPILER__decimal_Debug /Users/xingjunyang/CLionProjects/2022-CPL-Coding/10.14_class_4/Homework/decimal.c || cmake_object_order_depends_target_decimal
+  DEP_FILE = 10.14_class_4/Homework/CMakeFiles/decimal.dir/decimal.c.o.d
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk -std=gnu11
+  OBJECT_DIR = 10.14_class_4/Homework/CMakeFiles/decimal.dir
+  OBJECT_FILE_DIR = 10.14_class_4/Homework/CMakeFiles/decimal.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target decimal
+
+
+#############################################
+# Link the executable 10.14_class_4/Homework/decimal
+
+build 10.14_class_4/Homework/decimal: C_EXECUTABLE_LINKER__decimal_Debug 10.14_class_4/Homework/CMakeFiles/decimal.dir/decimal.c.o
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk
+  OBJECT_DIR = 10.14_class_4/Homework/CMakeFiles/decimal.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = 10.14_class_4/Homework/decimal
+  TARGET_PDB = decimal.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target Quick-sort
+
+
+#############################################
+# Order-only phony target for Quick-sort
+
+build cmake_object_order_depends_target_Quick-sort: phony || 10.14_class_4/Homework/CMakeFiles/Quick-sort.dir
+
+build 10.14_class_4/Homework/CMakeFiles/Quick-sort.dir/Quick-sort.c.o: C_COMPILER__Quick-sort_Debug /Users/xingjunyang/CLionProjects/2022-CPL-Coding/10.14_class_4/Homework/Quick-sort.c || cmake_object_order_depends_target_Quick-sort
+  DEP_FILE = 10.14_class_4/Homework/CMakeFiles/Quick-sort.dir/Quick-sort.c.o.d
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk -std=gnu11
+  OBJECT_DIR = 10.14_class_4/Homework/CMakeFiles/Quick-sort.dir
+  OBJECT_FILE_DIR = 10.14_class_4/Homework/CMakeFiles/Quick-sort.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target Quick-sort
+
+
+#############################################
+# Link the executable 10.14_class_4/Homework/Quick-sort
+
+build 10.14_class_4/Homework/Quick-sort: C_EXECUTABLE_LINKER__Quick-sort_Debug 10.14_class_4/Homework/CMakeFiles/Quick-sort.dir/Quick-sort.c.o
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk
+  OBJECT_DIR = 10.14_class_4/Homework/CMakeFiles/Quick-sort.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = 10.14_class_4/Homework/Quick-sort
+  TARGET_PDB = Quick-sort.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target palindrome
+
+
+#############################################
+# Order-only phony target for palindrome
+
+build cmake_object_order_depends_target_palindrome: phony || 10.14_class_4/Homework/CMakeFiles/palindrome.dir
+
+build 10.14_class_4/Homework/CMakeFiles/palindrome.dir/palindrome.c.o: C_COMPILER__palindrome_Debug /Users/xingjunyang/CLionProjects/2022-CPL-Coding/10.14_class_4/Homework/palindrome.c || cmake_object_order_depends_target_palindrome
+  DEP_FILE = 10.14_class_4/Homework/CMakeFiles/palindrome.dir/palindrome.c.o.d
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk -std=gnu11
+  OBJECT_DIR = 10.14_class_4/Homework/CMakeFiles/palindrome.dir
+  OBJECT_FILE_DIR = 10.14_class_4/Homework/CMakeFiles/palindrome.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target palindrome
+
+
+#############################################
+# Link the executable 10.14_class_4/Homework/palindrome
+
+build 10.14_class_4/Homework/palindrome: C_EXECUTABLE_LINKER__palindrome_Debug 10.14_class_4/Homework/CMakeFiles/palindrome.dir/palindrome.c.o
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk
+  OBJECT_DIR = 10.14_class_4/Homework/CMakeFiles/palindrome.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = 10.14_class_4/Homework/palindrome
+  TARGET_PDB = palindrome.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -210,239 +396,25 @@ build 10.14_class_4/Homework/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
 build 10.14_class_4/Homework/rebuild_cache: phony 10.14_class_4/Homework/CMakeFiles/rebuild_cache.util
 
 # =============================================================================
-# Write statements declared in CMakeLists.txt:
-# /Users/xingjunyang/CLionProjects/2022-CPL-Coding/CMakeLists.txt
-# =============================================================================
-
-# =============================================================================
-# Object build statements for EXECUTABLE target stars
-
-
-#############################################
-# Order-only phony target for stars
-
-build cmake_object_order_depends_target_stars: phony || 10.14_class_4/CMakeFiles/stars.dir
-
-build 10.14_class_4/CMakeFiles/stars.dir/stars.c.o: C_COMPILER__stars_Debug /Users/xingjunyang/CLionProjects/2022-CPL-Coding/10.14_class_4/stars.c || cmake_object_order_depends_target_stars
-  DEP_FILE = 10.14_class_4/CMakeFiles/stars.dir/stars.c.o.d
-  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk -std=gnu11
-  OBJECT_DIR = 10.14_class_4/CMakeFiles/stars.dir
-  OBJECT_FILE_DIR = 10.14_class_4/CMakeFiles/stars.dir
-
-
-# =============================================================================
-# Link build statements for EXECUTABLE target stars
-
-
-#############################################
-# Link the executable 10.14_class_4/stars
-
-build 10.14_class_4/stars: C_EXECUTABLE_LINKER__stars_Debug 10.14_class_4/CMakeFiles/stars.dir/stars.c.o
-  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk
-  OBJECT_DIR = 10.14_class_4/CMakeFiles/stars.dir
-  POST_BUILD = :
-  PRE_LINK = :
-  TARGET_FILE = 10.14_class_4/stars
-  TARGET_PDB = stars.dbg
-
-# =============================================================================
-# Object build statements for EXECUTABLE target prime
-
-
-#############################################
-# Order-only phony target for prime
-
-build cmake_object_order_depends_target_prime: phony || 10.14_class_4/CMakeFiles/prime.dir
-
-build 10.14_class_4/CMakeFiles/prime.dir/prime.c.o: C_COMPILER__prime_Debug /Users/xingjunyang/CLionProjects/2022-CPL-Coding/10.14_class_4/prime.c || cmake_object_order_depends_target_prime
-  DEP_FILE = 10.14_class_4/CMakeFiles/prime.dir/prime.c.o.d
-  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk -std=gnu11
-  OBJECT_DIR = 10.14_class_4/CMakeFiles/prime.dir
-  OBJECT_FILE_DIR = 10.14_class_4/CMakeFiles/prime.dir
-
-
-# =============================================================================
-# Link build statements for EXECUTABLE target prime
-
-
-#############################################
-# Link the executable 10.14_class_4/prime
-
-build 10.14_class_4/prime: C_EXECUTABLE_LINKER__prime_Debug 10.14_class_4/CMakeFiles/prime.dir/prime.c.o
-  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk
-  OBJECT_DIR = 10.14_class_4/CMakeFiles/prime.dir
-  POST_BUILD = :
-  PRE_LINK = :
-  TARGET_FILE = 10.14_class_4/prime
-  TARGET_PDB = prime.dbg
-
-# =============================================================================
-# Object build statements for EXECUTABLE target binary-search
-
-
-#############################################
-# Order-only phony target for binary-search
-
-build cmake_object_order_depends_target_binary-search: phony || 10.14_class_4/CMakeFiles/binary-search.dir
-
-build 10.14_class_4/CMakeFiles/binary-search.dir/binary-search.c.o: C_COMPILER__binary-search_Debug /Users/xingjunyang/CLionProjects/2022-CPL-Coding/10.14_class_4/binary-search.c || cmake_object_order_depends_target_binary-search
-  DEP_FILE = 10.14_class_4/CMakeFiles/binary-search.dir/binary-search.c.o.d
-  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk -std=gnu11
-  OBJECT_DIR = 10.14_class_4/CMakeFiles/binary-search.dir
-  OBJECT_FILE_DIR = 10.14_class_4/CMakeFiles/binary-search.dir
-
-
-# =============================================================================
-# Link build statements for EXECUTABLE target binary-search
-
-
-#############################################
-# Link the executable 10.14_class_4/binary-search
-
-build 10.14_class_4/binary-search: C_EXECUTABLE_LINKER__binary-search_Debug 10.14_class_4/CMakeFiles/binary-search.dir/binary-search.c.o
-  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk
-  OBJECT_DIR = 10.14_class_4/CMakeFiles/binary-search.dir
-  POST_BUILD = :
-  PRE_LINK = :
-  TARGET_FILE = 10.14_class_4/binary-search
-  TARGET_PDB = binary-search.dbg
-
-# =============================================================================
-# Object build statements for EXECUTABLE target digit
-
-
-#############################################
-# Order-only phony target for digit
-
-build cmake_object_order_depends_target_digit: phony || 10.14_class_4/CMakeFiles/digit.dir
-
-build 10.14_class_4/CMakeFiles/digit.dir/digit.c.o: C_COMPILER__digit_Debug /Users/xingjunyang/CLionProjects/2022-CPL-Coding/10.14_class_4/digit.c || cmake_object_order_depends_target_digit
-  DEP_FILE = 10.14_class_4/CMakeFiles/digit.dir/digit.c.o.d
-  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk -std=gnu11
-  OBJECT_DIR = 10.14_class_4/CMakeFiles/digit.dir
-  OBJECT_FILE_DIR = 10.14_class_4/CMakeFiles/digit.dir
-
-
-# =============================================================================
-# Link build statements for EXECUTABLE target digit
-
-
-#############################################
-# Link the executable 10.14_class_4/digit
-
-build 10.14_class_4/digit: C_EXECUTABLE_LINKER__digit_Debug 10.14_class_4/CMakeFiles/digit.dir/digit.c.o
-  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk
-  OBJECT_DIR = 10.14_class_4/CMakeFiles/digit.dir
-  POST_BUILD = :
-  PRE_LINK = :
-  TARGET_FILE = 10.14_class_4/digit
-  TARGET_PDB = digit.dbg
-
-# =============================================================================
-# Object build statements for EXECUTABLE target selection-sort
-
-
-#############################################
-# Order-only phony target for selection-sort
-
-build cmake_object_order_depends_target_selection-sort: phony || 10.14_class_4/CMakeFiles/selection-sort.dir
-
-build 10.14_class_4/CMakeFiles/selection-sort.dir/selection-sort.c.o: C_COMPILER__selection-sort_Debug /Users/xingjunyang/CLionProjects/2022-CPL-Coding/10.14_class_4/selection-sort.c || cmake_object_order_depends_target_selection-sort
-  DEP_FILE = 10.14_class_4/CMakeFiles/selection-sort.dir/selection-sort.c.o.d
-  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk -std=gnu11
-  OBJECT_DIR = 10.14_class_4/CMakeFiles/selection-sort.dir
-  OBJECT_FILE_DIR = 10.14_class_4/CMakeFiles/selection-sort.dir
-
-
-# =============================================================================
-# Link build statements for EXECUTABLE target selection-sort
-
-
-#############################################
-# Link the executable 10.14_class_4/selection-sort
-
-build 10.14_class_4/selection-sort: C_EXECUTABLE_LINKER__selection-sort_Debug 10.14_class_4/CMakeFiles/selection-sort.dir/selection-sort.c.o
-  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk
-  OBJECT_DIR = 10.14_class_4/CMakeFiles/selection-sort.dir
-  POST_BUILD = :
-  PRE_LINK = :
-  TARGET_FILE = 10.14_class_4/selection-sort
-  TARGET_PDB = selection-sort.dbg
-
-# =============================================================================
-# Object build statements for EXECUTABLE target palindrome
-
-
-#############################################
-# Order-only phony target for palindrome
-
-build cmake_object_order_depends_target_palindrome: phony || 10.14_class_4/CMakeFiles/palindrome.dir
-
-build 10.14_class_4/CMakeFiles/palindrome.dir/palindrome.c.o: C_COMPILER__palindrome_Debug /Users/xingjunyang/CLionProjects/2022-CPL-Coding/10.14_class_4/palindrome.c || cmake_object_order_depends_target_palindrome
-  DEP_FILE = 10.14_class_4/CMakeFiles/palindrome.dir/palindrome.c.o.d
-  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk -std=gnu11
-  OBJECT_DIR = 10.14_class_4/CMakeFiles/palindrome.dir
-  OBJECT_FILE_DIR = 10.14_class_4/CMakeFiles/palindrome.dir
-
-
-# =============================================================================
-# Link build statements for EXECUTABLE target palindrome
-
-
-#############################################
-# Link the executable 10.14_class_4/palindrome
-
-build 10.14_class_4/palindrome: C_EXECUTABLE_LINKER__palindrome_Debug 10.14_class_4/CMakeFiles/palindrome.dir/palindrome.c.o
-  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk
-  OBJECT_DIR = 10.14_class_4/CMakeFiles/palindrome.dir
-  POST_BUILD = :
-  PRE_LINK = :
-  TARGET_FILE = 10.14_class_4/palindrome
-  TARGET_PDB = palindrome.dbg
-
-
-#############################################
-# Utility command for edit_cache
-
-build 10.14_class_4/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
-  COMMAND = cd /Users/xingjunyang/CLionProjects/2022-CPL-Coding/cmake-build-debug/10.14_class_4 && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
-  DESC = No interactive CMake dialog available...
-  restat = 1
-
-build 10.14_class_4/edit_cache: phony 10.14_class_4/CMakeFiles/edit_cache.util
-
-
-#############################################
-# Utility command for rebuild_cache
-
-build 10.14_class_4/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = cd /Users/xingjunyang/CLionProjects/2022-CPL-Coding/cmake-build-debug/10.14_class_4 && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake --regenerate-during-build -S/Users/xingjunyang/CLionProjects/2022-CPL-Coding -B/Users/xingjunyang/CLionProjects/2022-CPL-Coding/cmake-build-debug
-  DESC = Running CMake to regenerate build system...
-  pool = console
-  restat = 1
-
-build 10.14_class_4/rebuild_cache: phony 10.14_class_4/CMakeFiles/rebuild_cache.util
-
-# =============================================================================
 # Target aliases.
 
 build Inverse2: phony 10.7_class_3/Homework/Inverse2
 
-build binary-search: phony 10.14_class_4/binary-search
+build Quick-sort: phony 10.14_class_4/Homework/Quick-sort
 
-build digit: phony 10.14_class_4/digit
+build decimal: phony 10.14_class_4/Homework/decimal
+
+build flip: phony 10.14_class_4/Homework/flip
+
+build josephus: phony 10.14_class_4/Homework/josephus
 
 build obstacle: phony 10.7_class_3/Homework/obstacle
 
-build palindrome: phony 10.14_class_4/palindrome
-
-build prime: phony 10.14_class_4/prime
-
-build selection-sort: phony 10.14_class_4/selection-sort
+build palindrome: phony 10.14_class_4/Homework/palindrome
 
 build single: phony 10.7_class_3/Homework/single
 
-build stars: phony 10.14_class_4/stars
+build statistics: phony 10.14_class_4/Homework/statistics
 
 # =============================================================================
 # Folder targets.
@@ -452,21 +424,14 @@ build stars: phony 10.14_class_4/stars
 #############################################
 # Folder: /Users/xingjunyang/CLionProjects/2022-CPL-Coding/cmake-build-debug
 
-build all: phony 10.7_class_3/Homework/all 10.14_class_4/Homework/all 10.14_class_4/all
-
-# =============================================================================
-
-#############################################
-# Folder: /Users/xingjunyang/CLionProjects/2022-CPL-Coding/cmake-build-debug/10.14_class_4
-
-build 10.14_class_4/all: phony 10.14_class_4/stars 10.14_class_4/prime 10.14_class_4/binary-search 10.14_class_4/digit 10.14_class_4/selection-sort 10.14_class_4/palindrome
+build all: phony 10.7_class_3/Homework/all 10.14_class_4/Homework/all
 
 # =============================================================================
 
 #############################################
 # Folder: /Users/xingjunyang/CLionProjects/2022-CPL-Coding/cmake-build-debug/10.14_class_4/Homework
 
-build 10.14_class_4/Homework/all: phony
+build 10.14_class_4/Homework/all: phony 10.14_class_4/Homework/flip 10.14_class_4/Homework/statistics 10.14_class_4/Homework/josephus 10.14_class_4/Homework/decimal 10.14_class_4/Homework/Quick-sort 10.14_class_4/Homework/palindrome
 
 # =============================================================================
 
@@ -482,14 +447,14 @@ build 10.7_class_3/Homework/all: phony 10.7_class_3/Homework/obstacle 10.7_class
 #############################################
 # Re-run CMake if any of its inputs changed.
 
-build build.ninja: RERUN_CMAKE | ../10.14_class_4/CMakeLists.txt ../10.14_class_4/Homework/CMakeLists.txt ../10.7_class_3/Homework/CMakeLists.txt ../CMakeLists.txt /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeCInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeCommonLanguageInclude.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeGenericSystem.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeInitializeConfigs.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeLanguageInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeSystemSpecificInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeSystemSpecificInitialize.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/AppleClang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/CMakeCommonCompilerMacros.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/Clang.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/GNU.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/Apple-AppleClang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/Apple-Clang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/Apple-Clang.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/Darwin-Initialize.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/Darwin.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/UnixPaths.cmake CMakeCache.txt CMakeFiles/3.23.2/CMakeCCompiler.cmake CMakeFiles/3.23.2/CMakeSystem.cmake
+build build.ninja: RERUN_CMAKE | ../10.14_class_4/Homework/CMakeLists.txt ../10.7_class_3/Homework/CMakeLists.txt ../CMakeLists.txt /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeCInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeCommonLanguageInclude.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeGenericSystem.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeInitializeConfigs.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeLanguageInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeSystemSpecificInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeSystemSpecificInitialize.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/AppleClang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/CMakeCommonCompilerMacros.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/Clang.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/GNU.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/Apple-AppleClang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/Apple-Clang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/Apple-Clang.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/Darwin-Initialize.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/Darwin.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/UnixPaths.cmake CMakeCache.txt CMakeFiles/3.23.2/CMakeCCompiler.cmake CMakeFiles/3.23.2/CMakeSystem.cmake
   pool = console
 
 
 #############################################
 # A missing CMake input file is not an error.
 
-build ../10.14_class_4/CMakeLists.txt ../10.14_class_4/Homework/CMakeLists.txt ../10.7_class_3/Homework/CMakeLists.txt ../CMakeLists.txt /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeCInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeCommonLanguageInclude.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeGenericSystem.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeInitializeConfigs.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeLanguageInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeSystemSpecificInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeSystemSpecificInitialize.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/AppleClang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/CMakeCommonCompilerMacros.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/Clang.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/GNU.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/Apple-AppleClang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/Apple-Clang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/Apple-Clang.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/Darwin-Initialize.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/Darwin.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/UnixPaths.cmake CMakeCache.txt CMakeFiles/3.23.2/CMakeCCompiler.cmake CMakeFiles/3.23.2/CMakeSystem.cmake: phony
+build ../10.14_class_4/Homework/CMakeLists.txt ../10.7_class_3/Homework/CMakeLists.txt ../CMakeLists.txt /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeCInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeCommonLanguageInclude.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeGenericSystem.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeInitializeConfigs.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeLanguageInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeSystemSpecificInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeSystemSpecificInitialize.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/AppleClang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/CMakeCommonCompilerMacros.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/Clang.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/GNU.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/Apple-AppleClang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/Apple-Clang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/Apple-Clang.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/Darwin-Initialize.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/Darwin.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/UnixPaths.cmake CMakeCache.txt CMakeFiles/3.23.2/CMakeCCompiler.cmake CMakeFiles/3.23.2/CMakeSystem.cmake: phony
 
 
 #############################################
