@@ -4,5 +4,11 @@
 /Users/xingjunyang/CLionProjects/2022-CPL-Coding/cmake-build-debug/10.21_class_5/CMakeFiles/merge.dir
 /Users/xingjunyang/CLionProjects/2022-CPL-Coding/cmake-build-debug/10.21_class_5/CMakeFiles/edit_cache.dir
 /Users/xingjunyang/CLionProjects/2022-CPL-Coding/cmake-build-debug/10.21_class_5/CMakeFiles/rebuild_cache.dir
+/Users/xingjunyang/CLionProjects/2022-CPL-Coding/cmake-build-debug/10.21_class_5/Homework/CMakeFiles/sudoku.dir
+/Users/xingjunyang/CLionProjects/2022-CPL-Coding/cmake-build-debug/10.21_class_5/Homework/CMakeFiles/mines.dir
+/Users/xingjunyang/CLionProjects/2022-CPL-Coding/cmake-build-debug/10.21_class_5/Homework/CMakeFiles/trace.dir
+/Users/xingjunyang/CLionProjects/2022-CPL-Coding/cmake-build-debug/10.21_class_5/Homework/CMakeFiles/life.dir
+/Users/xingjunyang/CLionProjects/2022-CPL-Coding/cmake-build-debug/10.21_class_5/Homework/CMakeFiles/martix-mult.dir
+/Users/xingjunyang/CLionProjects/2022-CPL-Coding/cmake-build-debug/10.21_class_5/Homework/CMakeFiles/random.dir
 /Users/xingjunyang/CLionProjects/2022-CPL-Coding/cmake-build-debug/10.21_class_5/Homework/CMakeFiles/edit_cache.dir
 /Users/xingjunyang/CLionProjects/2022-CPL-Coding/cmake-build-debug/10.21_class_5/Homework/CMakeFiles/rebuild_cache.dir
