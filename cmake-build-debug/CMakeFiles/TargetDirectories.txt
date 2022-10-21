@@ -1,5 +1,6 @@
 /Users/xingjunyang/CLionProjects/2022-CPL-Coding/cmake-build-debug/CMakeFiles/edit_cache.dir
 /Users/xingjunyang/CLionProjects/2022-CPL-Coding/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/xingjunyang/CLionProjects/2022-CPL-Coding/cmake-build-debug/10.21_class_5/CMakeFiles/game-of-life.dir
 /Users/xingjunyang/CLionProjects/2022-CPL-Coding/cmake-build-debug/10.21_class_5/CMakeFiles/edit_cache.dir
 /Users/xingjunyang/CLionProjects/2022-CPL-Coding/cmake-build-debug/10.21_class_5/CMakeFiles/rebuild_cache.dir
 /Users/xingjunyang/CLionProjects/2022-CPL-Coding/cmake-build-debug/10.21_class_5/Homework/CMakeFiles/edit_cache.dir
