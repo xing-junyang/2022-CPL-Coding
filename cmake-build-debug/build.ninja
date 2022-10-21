@@ -96,6 +96,37 @@ build 10.21_class_5/game-of-life: C_EXECUTABLE_LINKER__game-of-life_Debug 10.21_
   TARGET_FILE = 10.21_class_5/game-of-life
   TARGET_PDB = game-of-life.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target merge
+
+
+#############################################
+# Order-only phony target for merge
+
+build cmake_object_order_depends_target_merge: phony || 10.21_class_5/CMakeFiles/merge.dir
+
+build 10.21_class_5/CMakeFiles/merge.dir/merge.c.o: C_COMPILER__merge_Debug /Users/xingjunyang/CLionProjects/2022-CPL-Coding/10.21_class_5/merge.c || cmake_object_order_depends_target_merge
+  DEP_FILE = 10.21_class_5/CMakeFiles/merge.dir/merge.c.o.d
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk -std=gnu11
+  OBJECT_DIR = 10.21_class_5/CMakeFiles/merge.dir
+  OBJECT_FILE_DIR = 10.21_class_5/CMakeFiles/merge.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target merge
+
+
+#############################################
+# Link the executable 10.21_class_5/merge
+
+build 10.21_class_5/merge: C_EXECUTABLE_LINKER__merge_Debug 10.21_class_5/CMakeFiles/merge.dir/merge.c.o
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk
+  OBJECT_DIR = 10.21_class_5/CMakeFiles/merge.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = 10.21_class_5/merge
+  TARGET_PDB = merge.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -152,6 +183,8 @@ build 10.21_class_5/Homework/rebuild_cache: phony 10.21_class_5/Homework/CMakeFi
 
 build game-of-life: phony 10.21_class_5/game-of-life
 
+build merge: phony 10.21_class_5/merge
+
 # =============================================================================
 # Folder targets.
 
@@ -167,7 +200,7 @@ build all: phony 10.21_class_5/all 10.21_class_5/Homework/all
 #############################################
 # Folder: /Users/xingjunyang/CLionProjects/2022-CPL-Coding/cmake-build-debug/10.21_class_5
 
-build 10.21_class_5/all: phony 10.21_class_5/game-of-life
+build 10.21_class_5/all: phony 10.21_class_5/game-of-life 10.21_class_5/merge
 
 # =============================================================================
 
