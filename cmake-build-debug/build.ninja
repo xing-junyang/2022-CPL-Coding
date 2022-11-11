@@ -93,6 +93,37 @@ build 11.11_class_8/Homework/rebuild_cache: phony 11.11_class_8/Homework/CMakeFi
 # /Users/xingjunyang/CLionProjects/2022-CPL-Coding/CMakeLists.txt
 # =============================================================================
 
+# =============================================================================
+# Object build statements for EXECUTABLE target mergesort
+
+
+#############################################
+# Order-only phony target for mergesort
+
+build cmake_object_order_depends_target_mergesort: phony || 11.11_class_8/CMakeFiles/mergesort.dir
+
+build 11.11_class_8/CMakeFiles/mergesort.dir/mergesort.c.o: C_COMPILER__mergesort_Debug /Users/xingjunyang/CLionProjects/2022-CPL-Coding/11.11_class_8/mergesort.c || cmake_object_order_depends_target_mergesort
+  DEP_FILE = 11.11_class_8/CMakeFiles/mergesort.dir/mergesort.c.o.d
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk -std=gnu11
+  OBJECT_DIR = 11.11_class_8/CMakeFiles/mergesort.dir
+  OBJECT_FILE_DIR = 11.11_class_8/CMakeFiles/mergesort.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target mergesort
+
+
+#############################################
+# Link the executable 11.11_class_8/mergesort
+
+build 11.11_class_8/mergesort: C_EXECUTABLE_LINKER__mergesort_Debug 11.11_class_8/CMakeFiles/mergesort.dir/mergesort.c.o
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk
+  OBJECT_DIR = 11.11_class_8/CMakeFiles/mergesort.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = 11.11_class_8/mergesort
+  TARGET_PDB = mergesort.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -119,6 +150,8 @@ build 11.11_class_8/rebuild_cache: phony 11.11_class_8/CMakeFiles/rebuild_cache.
 # =============================================================================
 # Target aliases.
 
+build mergesort: phony 11.11_class_8/mergesort
+
 # =============================================================================
 # Folder targets.
 
@@ -134,7 +167,7 @@ build all: phony 11.11_class_8/Homework/all 11.11_class_8/all
 #############################################
 # Folder: /Users/xingjunyang/CLionProjects/2022-CPL-Coding/cmake-build-debug/11.11_class_8
 
-build 11.11_class_8/all: phony
+build 11.11_class_8/all: phony 11.11_class_8/mergesort
 
 # =============================================================================
 
