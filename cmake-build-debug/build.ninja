@@ -65,323 +65,59 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 # /Users/xingjunyang/CLionProjects/2022-CPL-Coding/CMakeLists.txt
 # =============================================================================
 
-# =============================================================================
-# Object build statements for EXECUTABLE target game-of-life
-
-
-#############################################
-# Order-only phony target for game-of-life
-
-build cmake_object_order_depends_target_game-of-life: phony || 10.21_class_5/CMakeFiles/game-of-life.dir
-
-build 10.21_class_5/CMakeFiles/game-of-life.dir/game-of-life.c.o: C_COMPILER__game-of-life_Debug /Users/xingjunyang/CLionProjects/2022-CPL-Coding/10.21_class_5/game-of-life.c || cmake_object_order_depends_target_game-of-life
-  DEP_FILE = 10.21_class_5/CMakeFiles/game-of-life.dir/game-of-life.c.o.d
-  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk -std=gnu11
-  OBJECT_DIR = 10.21_class_5/CMakeFiles/game-of-life.dir
-  OBJECT_FILE_DIR = 10.21_class_5/CMakeFiles/game-of-life.dir
-
-
-# =============================================================================
-# Link build statements for EXECUTABLE target game-of-life
-
-
-#############################################
-# Link the executable 10.21_class_5/game-of-life
-
-build 10.21_class_5/game-of-life: C_EXECUTABLE_LINKER__game-of-life_Debug 10.21_class_5/CMakeFiles/game-of-life.dir/game-of-life.c.o
-  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk
-  OBJECT_DIR = 10.21_class_5/CMakeFiles/game-of-life.dir
-  POST_BUILD = :
-  PRE_LINK = :
-  TARGET_FILE = 10.21_class_5/game-of-life
-  TARGET_PDB = game-of-life.dbg
-
-# =============================================================================
-# Object build statements for EXECUTABLE target merge
-
-
-#############################################
-# Order-only phony target for merge
-
-build cmake_object_order_depends_target_merge: phony || 10.21_class_5/CMakeFiles/merge.dir
-
-build 10.21_class_5/CMakeFiles/merge.dir/merge.c.o: C_COMPILER__merge_Debug /Users/xingjunyang/CLionProjects/2022-CPL-Coding/10.21_class_5/merge.c || cmake_object_order_depends_target_merge
-  DEP_FILE = 10.21_class_5/CMakeFiles/merge.dir/merge.c.o.d
-  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk -std=gnu11
-  OBJECT_DIR = 10.21_class_5/CMakeFiles/merge.dir
-  OBJECT_FILE_DIR = 10.21_class_5/CMakeFiles/merge.dir
-
-
-# =============================================================================
-# Link build statements for EXECUTABLE target merge
-
-
-#############################################
-# Link the executable 10.21_class_5/merge
-
-build 10.21_class_5/merge: C_EXECUTABLE_LINKER__merge_Debug 10.21_class_5/CMakeFiles/merge.dir/merge.c.o
-  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk
-  OBJECT_DIR = 10.21_class_5/CMakeFiles/merge.dir
-  POST_BUILD = :
-  PRE_LINK = :
-  TARGET_FILE = 10.21_class_5/merge
-  TARGET_PDB = merge.dbg
-
 
 #############################################
 # Utility command for edit_cache
 
-build 10.21_class_5/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
-  COMMAND = cd /Users/xingjunyang/CLionProjects/2022-CPL-Coding/cmake-build-debug/10.21_class_5 && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+build 11.11_class_8/Homework/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
+  COMMAND = cd /Users/xingjunyang/CLionProjects/2022-CPL-Coding/cmake-build-debug/11.11_class_8/Homework && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
   DESC = No interactive CMake dialog available...
   restat = 1
 
-build 10.21_class_5/edit_cache: phony 10.21_class_5/CMakeFiles/edit_cache.util
+build 11.11_class_8/Homework/edit_cache: phony 11.11_class_8/Homework/CMakeFiles/edit_cache.util
 
 
 #############################################
 # Utility command for rebuild_cache
 
-build 10.21_class_5/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = cd /Users/xingjunyang/CLionProjects/2022-CPL-Coding/cmake-build-debug/10.21_class_5 && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake --regenerate-during-build -S/Users/xingjunyang/CLionProjects/2022-CPL-Coding -B/Users/xingjunyang/CLionProjects/2022-CPL-Coding/cmake-build-debug
+build 11.11_class_8/Homework/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
+  COMMAND = cd /Users/xingjunyang/CLionProjects/2022-CPL-Coding/cmake-build-debug/11.11_class_8/Homework && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake --regenerate-during-build -S/Users/xingjunyang/CLionProjects/2022-CPL-Coding -B/Users/xingjunyang/CLionProjects/2022-CPL-Coding/cmake-build-debug
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
 
-build 10.21_class_5/rebuild_cache: phony 10.21_class_5/CMakeFiles/rebuild_cache.util
+build 11.11_class_8/Homework/rebuild_cache: phony 11.11_class_8/Homework/CMakeFiles/rebuild_cache.util
 
 # =============================================================================
 # Write statements declared in CMakeLists.txt:
 # /Users/xingjunyang/CLionProjects/2022-CPL-Coding/CMakeLists.txt
 # =============================================================================
 
-# =============================================================================
-# Object build statements for EXECUTABLE target sudoku
-
-
-#############################################
-# Order-only phony target for sudoku
-
-build cmake_object_order_depends_target_sudoku: phony || 10.21_class_5/Homework/CMakeFiles/sudoku.dir
-
-build 10.21_class_5/Homework/CMakeFiles/sudoku.dir/sudoku.c.o: C_COMPILER__sudoku_Debug /Users/xingjunyang/CLionProjects/2022-CPL-Coding/10.21_class_5/Homework/sudoku.c || cmake_object_order_depends_target_sudoku
-  DEP_FILE = 10.21_class_5/Homework/CMakeFiles/sudoku.dir/sudoku.c.o.d
-  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk -std=gnu11
-  OBJECT_DIR = 10.21_class_5/Homework/CMakeFiles/sudoku.dir
-  OBJECT_FILE_DIR = 10.21_class_5/Homework/CMakeFiles/sudoku.dir
-
-
-# =============================================================================
-# Link build statements for EXECUTABLE target sudoku
-
-
-#############################################
-# Link the executable 10.21_class_5/Homework/sudoku
-
-build 10.21_class_5/Homework/sudoku: C_EXECUTABLE_LINKER__sudoku_Debug 10.21_class_5/Homework/CMakeFiles/sudoku.dir/sudoku.c.o
-  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk
-  OBJECT_DIR = 10.21_class_5/Homework/CMakeFiles/sudoku.dir
-  POST_BUILD = :
-  PRE_LINK = :
-  TARGET_FILE = 10.21_class_5/Homework/sudoku
-  TARGET_PDB = sudoku.dbg
-
-# =============================================================================
-# Object build statements for EXECUTABLE target mines
-
-
-#############################################
-# Order-only phony target for mines
-
-build cmake_object_order_depends_target_mines: phony || 10.21_class_5/Homework/CMakeFiles/mines.dir
-
-build 10.21_class_5/Homework/CMakeFiles/mines.dir/mines.c.o: C_COMPILER__mines_Debug /Users/xingjunyang/CLionProjects/2022-CPL-Coding/10.21_class_5/Homework/mines.c || cmake_object_order_depends_target_mines
-  DEP_FILE = 10.21_class_5/Homework/CMakeFiles/mines.dir/mines.c.o.d
-  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk -std=gnu11
-  OBJECT_DIR = 10.21_class_5/Homework/CMakeFiles/mines.dir
-  OBJECT_FILE_DIR = 10.21_class_5/Homework/CMakeFiles/mines.dir
-
-
-# =============================================================================
-# Link build statements for EXECUTABLE target mines
-
-
-#############################################
-# Link the executable 10.21_class_5/Homework/mines
-
-build 10.21_class_5/Homework/mines: C_EXECUTABLE_LINKER__mines_Debug 10.21_class_5/Homework/CMakeFiles/mines.dir/mines.c.o
-  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk
-  OBJECT_DIR = 10.21_class_5/Homework/CMakeFiles/mines.dir
-  POST_BUILD = :
-  PRE_LINK = :
-  TARGET_FILE = 10.21_class_5/Homework/mines
-  TARGET_PDB = mines.dbg
-
-# =============================================================================
-# Object build statements for EXECUTABLE target trace
-
-
-#############################################
-# Order-only phony target for trace
-
-build cmake_object_order_depends_target_trace: phony || 10.21_class_5/Homework/CMakeFiles/trace.dir
-
-build 10.21_class_5/Homework/CMakeFiles/trace.dir/trace.c.o: C_COMPILER__trace_Debug /Users/xingjunyang/CLionProjects/2022-CPL-Coding/10.21_class_5/Homework/trace.c || cmake_object_order_depends_target_trace
-  DEP_FILE = 10.21_class_5/Homework/CMakeFiles/trace.dir/trace.c.o.d
-  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk -std=gnu11
-  OBJECT_DIR = 10.21_class_5/Homework/CMakeFiles/trace.dir
-  OBJECT_FILE_DIR = 10.21_class_5/Homework/CMakeFiles/trace.dir
-
-
-# =============================================================================
-# Link build statements for EXECUTABLE target trace
-
-
-#############################################
-# Link the executable 10.21_class_5/Homework/trace
-
-build 10.21_class_5/Homework/trace: C_EXECUTABLE_LINKER__trace_Debug 10.21_class_5/Homework/CMakeFiles/trace.dir/trace.c.o
-  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk
-  OBJECT_DIR = 10.21_class_5/Homework/CMakeFiles/trace.dir
-  POST_BUILD = :
-  PRE_LINK = :
-  TARGET_FILE = 10.21_class_5/Homework/trace
-  TARGET_PDB = trace.dbg
-
-# =============================================================================
-# Object build statements for EXECUTABLE target life
-
-
-#############################################
-# Order-only phony target for life
-
-build cmake_object_order_depends_target_life: phony || 10.21_class_5/Homework/CMakeFiles/life.dir
-
-build 10.21_class_5/Homework/CMakeFiles/life.dir/life.c.o: C_COMPILER__life_Debug /Users/xingjunyang/CLionProjects/2022-CPL-Coding/10.21_class_5/Homework/life.c || cmake_object_order_depends_target_life
-  DEP_FILE = 10.21_class_5/Homework/CMakeFiles/life.dir/life.c.o.d
-  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk -std=gnu11
-  OBJECT_DIR = 10.21_class_5/Homework/CMakeFiles/life.dir
-  OBJECT_FILE_DIR = 10.21_class_5/Homework/CMakeFiles/life.dir
-
-
-# =============================================================================
-# Link build statements for EXECUTABLE target life
-
-
-#############################################
-# Link the executable 10.21_class_5/Homework/life
-
-build 10.21_class_5/Homework/life: C_EXECUTABLE_LINKER__life_Debug 10.21_class_5/Homework/CMakeFiles/life.dir/life.c.o
-  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk
-  OBJECT_DIR = 10.21_class_5/Homework/CMakeFiles/life.dir
-  POST_BUILD = :
-  PRE_LINK = :
-  TARGET_FILE = 10.21_class_5/Homework/life
-  TARGET_PDB = life.dbg
-
-# =============================================================================
-# Object build statements for EXECUTABLE target martix-mult
-
-
-#############################################
-# Order-only phony target for martix-mult
-
-build cmake_object_order_depends_target_martix-mult: phony || 10.21_class_5/Homework/CMakeFiles/martix-mult.dir
-
-build 10.21_class_5/Homework/CMakeFiles/martix-mult.dir/martix-mult.c.o: C_COMPILER__martix-mult_Debug /Users/xingjunyang/CLionProjects/2022-CPL-Coding/10.21_class_5/Homework/martix-mult.c || cmake_object_order_depends_target_martix-mult
-  DEP_FILE = 10.21_class_5/Homework/CMakeFiles/martix-mult.dir/martix-mult.c.o.d
-  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk -std=gnu11
-  OBJECT_DIR = 10.21_class_5/Homework/CMakeFiles/martix-mult.dir
-  OBJECT_FILE_DIR = 10.21_class_5/Homework/CMakeFiles/martix-mult.dir
-
-
-# =============================================================================
-# Link build statements for EXECUTABLE target martix-mult
-
-
-#############################################
-# Link the executable 10.21_class_5/Homework/martix-mult
-
-build 10.21_class_5/Homework/martix-mult: C_EXECUTABLE_LINKER__martix-mult_Debug 10.21_class_5/Homework/CMakeFiles/martix-mult.dir/martix-mult.c.o
-  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk
-  OBJECT_DIR = 10.21_class_5/Homework/CMakeFiles/martix-mult.dir
-  POST_BUILD = :
-  PRE_LINK = :
-  TARGET_FILE = 10.21_class_5/Homework/martix-mult
-  TARGET_PDB = martix-mult.dbg
-
-# =============================================================================
-# Object build statements for EXECUTABLE target random
-
-
-#############################################
-# Order-only phony target for random
-
-build cmake_object_order_depends_target_random: phony || 10.21_class_5/Homework/CMakeFiles/random.dir
-
-build 10.21_class_5/Homework/CMakeFiles/random.dir/random.c.o: C_COMPILER__random_Debug /Users/xingjunyang/CLionProjects/2022-CPL-Coding/10.21_class_5/Homework/random.c || cmake_object_order_depends_target_random
-  DEP_FILE = 10.21_class_5/Homework/CMakeFiles/random.dir/random.c.o.d
-  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk -std=gnu11
-  OBJECT_DIR = 10.21_class_5/Homework/CMakeFiles/random.dir
-  OBJECT_FILE_DIR = 10.21_class_5/Homework/CMakeFiles/random.dir
-
-
-# =============================================================================
-# Link build statements for EXECUTABLE target random
-
-
-#############################################
-# Link the executable 10.21_class_5/Homework/random
-
-build 10.21_class_5/Homework/random: C_EXECUTABLE_LINKER__random_Debug 10.21_class_5/Homework/CMakeFiles/random.dir/random.c.o
-  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk
-  OBJECT_DIR = 10.21_class_5/Homework/CMakeFiles/random.dir
-  POST_BUILD = :
-  PRE_LINK = :
-  TARGET_FILE = 10.21_class_5/Homework/random
-  TARGET_PDB = random.dbg
-
 
 #############################################
 # Utility command for edit_cache
 
-build 10.21_class_5/Homework/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
-  COMMAND = cd /Users/xingjunyang/CLionProjects/2022-CPL-Coding/cmake-build-debug/10.21_class_5/Homework && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+build 11.11_class_8/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
+  COMMAND = cd /Users/xingjunyang/CLionProjects/2022-CPL-Coding/cmake-build-debug/11.11_class_8 && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
   DESC = No interactive CMake dialog available...
   restat = 1
 
-build 10.21_class_5/Homework/edit_cache: phony 10.21_class_5/Homework/CMakeFiles/edit_cache.util
+build 11.11_class_8/edit_cache: phony 11.11_class_8/CMakeFiles/edit_cache.util
 
 
 #############################################
 # Utility command for rebuild_cache
 
-build 10.21_class_5/Homework/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = cd /Users/xingjunyang/CLionProjects/2022-CPL-Coding/cmake-build-debug/10.21_class_5/Homework && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake --regenerate-during-build -S/Users/xingjunyang/CLionProjects/2022-CPL-Coding -B/Users/xingjunyang/CLionProjects/2022-CPL-Coding/cmake-build-debug
+build 11.11_class_8/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
+  COMMAND = cd /Users/xingjunyang/CLionProjects/2022-CPL-Coding/cmake-build-debug/11.11_class_8 && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake --regenerate-during-build -S/Users/xingjunyang/CLionProjects/2022-CPL-Coding -B/Users/xingjunyang/CLionProjects/2022-CPL-Coding/cmake-build-debug
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
 
-build 10.21_class_5/Homework/rebuild_cache: phony 10.21_class_5/Homework/CMakeFiles/rebuild_cache.util
+build 11.11_class_8/rebuild_cache: phony 11.11_class_8/CMakeFiles/rebuild_cache.util
 
 # =============================================================================
 # Target aliases.
-
-build game-of-life: phony 10.21_class_5/game-of-life
-
-build life: phony 10.21_class_5/Homework/life
-
-build martix-mult: phony 10.21_class_5/Homework/martix-mult
-
-build merge: phony 10.21_class_5/merge
-
-build mines: phony 10.21_class_5/Homework/mines
-
-build random: phony 10.21_class_5/Homework/random
-
-build sudoku: phony 10.21_class_5/Homework/sudoku
-
-build trace: phony 10.21_class_5/Homework/trace
 
 # =============================================================================
 # Folder targets.
@@ -391,21 +127,21 @@ build trace: phony 10.21_class_5/Homework/trace
 #############################################
 # Folder: /Users/xingjunyang/CLionProjects/2022-CPL-Coding/cmake-build-debug
 
-build all: phony 10.21_class_5/all 10.21_class_5/Homework/all
+build all: phony 11.11_class_8/Homework/all 11.11_class_8/all
 
 # =============================================================================
 
 #############################################
-# Folder: /Users/xingjunyang/CLionProjects/2022-CPL-Coding/cmake-build-debug/10.21_class_5
+# Folder: /Users/xingjunyang/CLionProjects/2022-CPL-Coding/cmake-build-debug/11.11_class_8
 
-build 10.21_class_5/all: phony 10.21_class_5/game-of-life 10.21_class_5/merge
+build 11.11_class_8/all: phony
 
 # =============================================================================
 
 #############################################
-# Folder: /Users/xingjunyang/CLionProjects/2022-CPL-Coding/cmake-build-debug/10.21_class_5/Homework
+# Folder: /Users/xingjunyang/CLionProjects/2022-CPL-Coding/cmake-build-debug/11.11_class_8/Homework
 
-build 10.21_class_5/Homework/all: phony 10.21_class_5/Homework/sudoku 10.21_class_5/Homework/mines 10.21_class_5/Homework/trace 10.21_class_5/Homework/life 10.21_class_5/Homework/martix-mult 10.21_class_5/Homework/random
+build 11.11_class_8/Homework/all: phony
 
 # =============================================================================
 # Built-in targets
@@ -414,14 +150,14 @@ build 10.21_class_5/Homework/all: phony 10.21_class_5/Homework/sudoku 10.21_clas
 #############################################
 # Re-run CMake if any of its inputs changed.
 
-build build.ninja: RERUN_CMAKE | ../10.21_class_5/CMakeLists.txt ../10.21_class_5/Homework/CMakeLists.txt ../CMakeLists.txt /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeCInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeCommonLanguageInclude.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeGenericSystem.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeInitializeConfigs.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeLanguageInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeSystemSpecificInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeSystemSpecificInitialize.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/AppleClang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/CMakeCommonCompilerMacros.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/Clang.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/GNU.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/Apple-AppleClang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/Apple-Clang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/Apple-Clang.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/Darwin-Initialize.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/Darwin.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/UnixPaths.cmake CMakeCache.txt CMakeFiles/3.23.2/CMakeCCompiler.cmake CMakeFiles/3.23.2/CMakeSystem.cmake
+build build.ninja: RERUN_CMAKE | ../11.11_class_8/CMakeLists.txt ../11.11_class_8/Homework/CMakeLists.txt ../CMakeLists.txt /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeCInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeCommonLanguageInclude.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeGenericSystem.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeInitializeConfigs.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeLanguageInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeSystemSpecificInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeSystemSpecificInitialize.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/AppleClang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/CMakeCommonCompilerMacros.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/Clang.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/GNU.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/Apple-AppleClang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/Apple-Clang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/Apple-Clang.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/Darwin-Initialize.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/Darwin.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/UnixPaths.cmake CMakeCache.txt CMakeFiles/3.23.2/CMakeCCompiler.cmake CMakeFiles/3.23.2/CMakeSystem.cmake
   pool = console
 
 
 #############################################
 # A missing CMake input file is not an error.
 
-build ../10.21_class_5/CMakeLists.txt ../10.21_class_5/Homework/CMakeLists.txt ../CMakeLists.txt /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeCInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeCommonLanguageInclude.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeGenericSystem.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeInitializeConfigs.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeLanguageInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeSystemSpecificInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeSystemSpecificInitialize.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/AppleClang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/CMakeCommonCompilerMacros.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/Clang.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/GNU.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/Apple-AppleClang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/Apple-Clang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/Apple-Clang.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/Darwin-Initialize.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/Darwin.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/UnixPaths.cmake CMakeCache.txt CMakeFiles/3.23.2/CMakeCCompiler.cmake CMakeFiles/3.23.2/CMakeSystem.cmake: phony
+build ../11.11_class_8/CMakeLists.txt ../11.11_class_8/Homework/CMakeLists.txt ../CMakeLists.txt /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeCInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeCommonLanguageInclude.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeGenericSystem.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeInitializeConfigs.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeLanguageInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeSystemSpecificInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeSystemSpecificInitialize.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/AppleClang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/CMakeCommonCompilerMacros.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/Clang.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/GNU.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/Apple-AppleClang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/Apple-Clang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/Apple-Clang.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/Darwin-Initialize.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/Darwin.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/UnixPaths.cmake CMakeCache.txt CMakeFiles/3.23.2/CMakeCCompiler.cmake CMakeFiles/3.23.2/CMakeSystem.cmake: phony
 
 
 #############################################

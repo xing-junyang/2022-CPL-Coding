@@ -1,0 +1,5 @@
+add_executable(b b.c)
+add_executable(c c.c)
+add_executable(d d.c)
+add_executable(e e.c)
+add_executable(f f.c)
