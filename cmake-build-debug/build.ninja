@@ -65,6 +65,192 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 # /Users/xingjunyang/CLionProjects/2022-CPL-Coding/CMakeLists.txt
 # =============================================================================
 
+# =============================================================================
+# Object build statements for EXECUTABLE target wine
+
+
+#############################################
+# Order-only phony target for wine
+
+build cmake_object_order_depends_target_wine: phony || 11.11_class_8/Homework/CMakeFiles/wine.dir
+
+build 11.11_class_8/Homework/CMakeFiles/wine.dir/wine.c.o: C_COMPILER__wine_Debug /Users/xingjunyang/CLionProjects/2022-CPL-Coding/11.11_class_8/Homework/wine.c || cmake_object_order_depends_target_wine
+  DEP_FILE = 11.11_class_8/Homework/CMakeFiles/wine.dir/wine.c.o.d
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk -std=gnu11
+  OBJECT_DIR = 11.11_class_8/Homework/CMakeFiles/wine.dir
+  OBJECT_FILE_DIR = 11.11_class_8/Homework/CMakeFiles/wine.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target wine
+
+
+#############################################
+# Link the executable 11.11_class_8/Homework/wine
+
+build 11.11_class_8/Homework/wine: C_EXECUTABLE_LINKER__wine_Debug 11.11_class_8/Homework/CMakeFiles/wine.dir/wine.c.o
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk
+  OBJECT_DIR = 11.11_class_8/Homework/CMakeFiles/wine.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = 11.11_class_8/Homework/wine
+  TARGET_PDB = wine.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target cuboid
+
+
+#############################################
+# Order-only phony target for cuboid
+
+build cmake_object_order_depends_target_cuboid: phony || 11.11_class_8/Homework/CMakeFiles/cuboid.dir
+
+build 11.11_class_8/Homework/CMakeFiles/cuboid.dir/cuboid.c.o: C_COMPILER__cuboid_Debug /Users/xingjunyang/CLionProjects/2022-CPL-Coding/11.11_class_8/Homework/cuboid.c || cmake_object_order_depends_target_cuboid
+  DEP_FILE = 11.11_class_8/Homework/CMakeFiles/cuboid.dir/cuboid.c.o.d
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk -std=gnu11
+  OBJECT_DIR = 11.11_class_8/Homework/CMakeFiles/cuboid.dir
+  OBJECT_FILE_DIR = 11.11_class_8/Homework/CMakeFiles/cuboid.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target cuboid
+
+
+#############################################
+# Link the executable 11.11_class_8/Homework/cuboid
+
+build 11.11_class_8/Homework/cuboid: C_EXECUTABLE_LINKER__cuboid_Debug 11.11_class_8/Homework/CMakeFiles/cuboid.dir/cuboid.c.o
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk
+  OBJECT_DIR = 11.11_class_8/Homework/CMakeFiles/cuboid.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = 11.11_class_8/Homework/cuboid
+  TARGET_PDB = cuboid.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target pour
+
+
+#############################################
+# Order-only phony target for pour
+
+build cmake_object_order_depends_target_pour: phony || 11.11_class_8/Homework/CMakeFiles/pour.dir
+
+build 11.11_class_8/Homework/CMakeFiles/pour.dir/pour.c.o: C_COMPILER__pour_Debug /Users/xingjunyang/CLionProjects/2022-CPL-Coding/11.11_class_8/Homework/pour.c || cmake_object_order_depends_target_pour
+  DEP_FILE = 11.11_class_8/Homework/CMakeFiles/pour.dir/pour.c.o.d
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk -std=gnu11
+  OBJECT_DIR = 11.11_class_8/Homework/CMakeFiles/pour.dir
+  OBJECT_FILE_DIR = 11.11_class_8/Homework/CMakeFiles/pour.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target pour
+
+
+#############################################
+# Link the executable 11.11_class_8/Homework/pour
+
+build 11.11_class_8/Homework/pour: C_EXECUTABLE_LINKER__pour_Debug 11.11_class_8/Homework/CMakeFiles/pour.dir/pour.c.o
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk
+  OBJECT_DIR = 11.11_class_8/Homework/CMakeFiles/pour.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = 11.11_class_8/Homework/pour
+  TARGET_PDB = pour.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target buddy
+
+
+#############################################
+# Order-only phony target for buddy
+
+build cmake_object_order_depends_target_buddy: phony || 11.11_class_8/Homework/CMakeFiles/buddy.dir
+
+build 11.11_class_8/Homework/CMakeFiles/buddy.dir/buddy.c.o: C_COMPILER__buddy_Debug /Users/xingjunyang/CLionProjects/2022-CPL-Coding/11.11_class_8/Homework/buddy.c || cmake_object_order_depends_target_buddy
+  DEP_FILE = 11.11_class_8/Homework/CMakeFiles/buddy.dir/buddy.c.o.d
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk -std=gnu11
+  OBJECT_DIR = 11.11_class_8/Homework/CMakeFiles/buddy.dir
+  OBJECT_FILE_DIR = 11.11_class_8/Homework/CMakeFiles/buddy.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target buddy
+
+
+#############################################
+# Link the executable 11.11_class_8/Homework/buddy
+
+build 11.11_class_8/Homework/buddy: C_EXECUTABLE_LINKER__buddy_Debug 11.11_class_8/Homework/CMakeFiles/buddy.dir/buddy.c.o
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk
+  OBJECT_DIR = 11.11_class_8/Homework/CMakeFiles/buddy.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = 11.11_class_8/Homework/buddy
+  TARGET_PDB = buddy.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target brackets
+
+
+#############################################
+# Order-only phony target for brackets
+
+build cmake_object_order_depends_target_brackets: phony || 11.11_class_8/Homework/CMakeFiles/brackets.dir
+
+build 11.11_class_8/Homework/CMakeFiles/brackets.dir/brackets.c.o: C_COMPILER__brackets_Debug /Users/xingjunyang/CLionProjects/2022-CPL-Coding/11.11_class_8/Homework/brackets.c || cmake_object_order_depends_target_brackets
+  DEP_FILE = 11.11_class_8/Homework/CMakeFiles/brackets.dir/brackets.c.o.d
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk -std=gnu11
+  OBJECT_DIR = 11.11_class_8/Homework/CMakeFiles/brackets.dir
+  OBJECT_FILE_DIR = 11.11_class_8/Homework/CMakeFiles/brackets.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target brackets
+
+
+#############################################
+# Link the executable 11.11_class_8/Homework/brackets
+
+build 11.11_class_8/Homework/brackets: C_EXECUTABLE_LINKER__brackets_Debug 11.11_class_8/Homework/CMakeFiles/brackets.dir/brackets.c.o
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk
+  OBJECT_DIR = 11.11_class_8/Homework/CMakeFiles/brackets.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = 11.11_class_8/Homework/brackets
+  TARGET_PDB = brackets.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target rotate
+
+
+#############################################
+# Order-only phony target for rotate
+
+build cmake_object_order_depends_target_rotate: phony || 11.11_class_8/Homework/CMakeFiles/rotate.dir
+
+build 11.11_class_8/Homework/CMakeFiles/rotate.dir/rotate.c.o: C_COMPILER__rotate_Debug /Users/xingjunyang/CLionProjects/2022-CPL-Coding/11.11_class_8/Homework/rotate.c || cmake_object_order_depends_target_rotate
+  DEP_FILE = 11.11_class_8/Homework/CMakeFiles/rotate.dir/rotate.c.o.d
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk -std=gnu11
+  OBJECT_DIR = 11.11_class_8/Homework/CMakeFiles/rotate.dir
+  OBJECT_FILE_DIR = 11.11_class_8/Homework/CMakeFiles/rotate.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target rotate
+
+
+#############################################
+# Link the executable 11.11_class_8/Homework/rotate
+
+build 11.11_class_8/Homework/rotate: C_EXECUTABLE_LINKER__rotate_Debug 11.11_class_8/Homework/CMakeFiles/rotate.dir/rotate.c.o
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk
+  OBJECT_DIR = 11.11_class_8/Homework/CMakeFiles/rotate.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = 11.11_class_8/Homework/rotate
+  TARGET_PDB = rotate.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -89,68 +275,19 @@ build 11.11_class_8/Homework/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
 build 11.11_class_8/Homework/rebuild_cache: phony 11.11_class_8/Homework/CMakeFiles/rebuild_cache.util
 
 # =============================================================================
-# Write statements declared in CMakeLists.txt:
-# /Users/xingjunyang/CLionProjects/2022-CPL-Coding/CMakeLists.txt
-# =============================================================================
-
-# =============================================================================
-# Object build statements for EXECUTABLE target mergesort
-
-
-#############################################
-# Order-only phony target for mergesort
-
-build cmake_object_order_depends_target_mergesort: phony || 11.11_class_8/CMakeFiles/mergesort.dir
-
-build 11.11_class_8/CMakeFiles/mergesort.dir/mergesort.c.o: C_COMPILER__mergesort_Debug /Users/xingjunyang/CLionProjects/2022-CPL-Coding/11.11_class_8/mergesort.c || cmake_object_order_depends_target_mergesort
-  DEP_FILE = 11.11_class_8/CMakeFiles/mergesort.dir/mergesort.c.o.d
-  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk -std=gnu11
-  OBJECT_DIR = 11.11_class_8/CMakeFiles/mergesort.dir
-  OBJECT_FILE_DIR = 11.11_class_8/CMakeFiles/mergesort.dir
-
-
-# =============================================================================
-# Link build statements for EXECUTABLE target mergesort
-
-
-#############################################
-# Link the executable 11.11_class_8/mergesort
-
-build 11.11_class_8/mergesort: C_EXECUTABLE_LINKER__mergesort_Debug 11.11_class_8/CMakeFiles/mergesort.dir/mergesort.c.o
-  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk
-  OBJECT_DIR = 11.11_class_8/CMakeFiles/mergesort.dir
-  POST_BUILD = :
-  PRE_LINK = :
-  TARGET_FILE = 11.11_class_8/mergesort
-  TARGET_PDB = mergesort.dbg
-
-
-#############################################
-# Utility command for edit_cache
-
-build 11.11_class_8/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
-  COMMAND = cd /Users/xingjunyang/CLionProjects/2022-CPL-Coding/cmake-build-debug/11.11_class_8 && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
-  DESC = No interactive CMake dialog available...
-  restat = 1
-
-build 11.11_class_8/edit_cache: phony 11.11_class_8/CMakeFiles/edit_cache.util
-
-
-#############################################
-# Utility command for rebuild_cache
-
-build 11.11_class_8/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = cd /Users/xingjunyang/CLionProjects/2022-CPL-Coding/cmake-build-debug/11.11_class_8 && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake --regenerate-during-build -S/Users/xingjunyang/CLionProjects/2022-CPL-Coding -B/Users/xingjunyang/CLionProjects/2022-CPL-Coding/cmake-build-debug
-  DESC = Running CMake to regenerate build system...
-  pool = console
-  restat = 1
-
-build 11.11_class_8/rebuild_cache: phony 11.11_class_8/CMakeFiles/rebuild_cache.util
-
-# =============================================================================
 # Target aliases.
 
-build mergesort: phony 11.11_class_8/mergesort
+build brackets: phony 11.11_class_8/Homework/brackets
+
+build buddy: phony 11.11_class_8/Homework/buddy
+
+build cuboid: phony 11.11_class_8/Homework/cuboid
+
+build pour: phony 11.11_class_8/Homework/pour
+
+build rotate: phony 11.11_class_8/Homework/rotate
+
+build wine: phony 11.11_class_8/Homework/wine
 
 # =============================================================================
 # Folder targets.
@@ -160,21 +297,14 @@ build mergesort: phony 11.11_class_8/mergesort
 #############################################
 # Folder: /Users/xingjunyang/CLionProjects/2022-CPL-Coding/cmake-build-debug
 
-build all: phony 11.11_class_8/Homework/all 11.11_class_8/all
-
-# =============================================================================
-
-#############################################
-# Folder: /Users/xingjunyang/CLionProjects/2022-CPL-Coding/cmake-build-debug/11.11_class_8
-
-build 11.11_class_8/all: phony 11.11_class_8/mergesort
+build all: phony 11.11_class_8/Homework/all
 
 # =============================================================================
 
 #############################################
 # Folder: /Users/xingjunyang/CLionProjects/2022-CPL-Coding/cmake-build-debug/11.11_class_8/Homework
 
-build 11.11_class_8/Homework/all: phony
+build 11.11_class_8/Homework/all: phony 11.11_class_8/Homework/wine 11.11_class_8/Homework/cuboid 11.11_class_8/Homework/pour 11.11_class_8/Homework/buddy 11.11_class_8/Homework/brackets 11.11_class_8/Homework/rotate
 
 # =============================================================================
 # Built-in targets
@@ -183,14 +313,14 @@ build 11.11_class_8/Homework/all: phony
 #############################################
 # Re-run CMake if any of its inputs changed.
 
-build build.ninja: RERUN_CMAKE | ../11.11_class_8/CMakeLists.txt ../11.11_class_8/Homework/CMakeLists.txt ../CMakeLists.txt /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeCInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeCommonLanguageInclude.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeGenericSystem.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeInitializeConfigs.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeLanguageInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeSystemSpecificInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeSystemSpecificInitialize.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/AppleClang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/CMakeCommonCompilerMacros.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/Clang.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/GNU.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/Apple-AppleClang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/Apple-Clang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/Apple-Clang.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/Darwin-Initialize.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/Darwin.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/UnixPaths.cmake CMakeCache.txt CMakeFiles/3.23.2/CMakeCCompiler.cmake CMakeFiles/3.23.2/CMakeSystem.cmake
+build build.ninja: RERUN_CMAKE | ../11.11_class_8/Homework/CMakeLists.txt ../CMakeLists.txt /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeCInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeCommonLanguageInclude.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeGenericSystem.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeInitializeConfigs.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeLanguageInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeSystemSpecificInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeSystemSpecificInitialize.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/AppleClang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/CMakeCommonCompilerMacros.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/Clang.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/GNU.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/Apple-AppleClang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/Apple-Clang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/Apple-Clang.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/Darwin-Initialize.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/Darwin.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/UnixPaths.cmake CMakeCache.txt CMakeFiles/3.23.2/CMakeCCompiler.cmake CMakeFiles/3.23.2/CMakeSystem.cmake
   pool = console
 
 
 #############################################
 # A missing CMake input file is not an error.
 
-build ../11.11_class_8/CMakeLists.txt ../11.11_class_8/Homework/CMakeLists.txt ../CMakeLists.txt /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeCInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeCommonLanguageInclude.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeGenericSystem.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeInitializeConfigs.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeLanguageInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeSystemSpecificInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeSystemSpecificInitialize.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/AppleClang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/CMakeCommonCompilerMacros.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/Clang.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/GNU.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/Apple-AppleClang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/Apple-Clang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/Apple-Clang.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/Darwin-Initialize.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/Darwin.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/UnixPaths.cmake CMakeCache.txt CMakeFiles/3.23.2/CMakeCCompiler.cmake CMakeFiles/3.23.2/CMakeSystem.cmake: phony
+build ../11.11_class_8/Homework/CMakeLists.txt ../CMakeLists.txt /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeCInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeCommonLanguageInclude.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeGenericSystem.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeInitializeConfigs.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeLanguageInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeSystemSpecificInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeSystemSpecificInitialize.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/AppleClang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/CMakeCommonCompilerMacros.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/Clang.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/GNU.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/Apple-AppleClang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/Apple-Clang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/Apple-Clang.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/Darwin-Initialize.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/Darwin.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/UnixPaths.cmake CMakeCache.txt CMakeFiles/3.23.2/CMakeCCompiler.cmake CMakeFiles/3.23.2/CMakeSystem.cmake: phony
 
 
 #############################################

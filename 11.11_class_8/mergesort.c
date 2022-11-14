@@ -21,6 +21,7 @@ void mergeSort(int l, int r, int *Array) {
     int mid = (l + r) >> 1;
     mergeSort(l, mid, Array);
     mergeSort(mid + 1, r, Array);
+    //merge
     int leftPtr = l, rightPtr = mid + 1;
     int tmp[MaxArrayLength], cnt = 0;
     while (leftPtr <= mid || rightPtr <= r) {
@@ -45,6 +46,7 @@ void mergeSort(int l, int r, int *Array) {
     for(int i=1;i<=cnt;i++){
         Array[l+i-1]=tmp[i];
     }
+    //end of merge
     return;
 }
 
