@@ -2,12 +2,8 @@
 #include <math.h>
 
 typedef struct node {
-    int pos;
-    int size;//k
-    int id;//0 for free
-    int nxt;//0 for end
+    int pos, size, id, nxt;
 } node;
-
 node buddy[3100005];
 int n, q, cnt = 0, head;
 
