@@ -1,7 +1,4 @@
 /Users/xingjunyang/CLionProjects/2022-CPL-Coding/cmake-build-debug/CMakeFiles/edit_cache.dir
 /Users/xingjunyang/CLionProjects/2022-CPL-Coding/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-/Users/xingjunyang/CLionProjects/2022-CPL-Coding/cmake-build-debug/11.18_class_9/CMakeFiles/radius.dir
-/Users/xingjunyang/CLionProjects/2022-CPL-Coding/cmake-build-debug/11.18_class_9/CMakeFiles/selection.dir
-/Users/xingjunyang/CLionProjects/2022-CPL-Coding/cmake-build-debug/11.18_class_9/CMakeFiles/merge.dir
-/Users/xingjunyang/CLionProjects/2022-CPL-Coding/cmake-build-debug/11.18_class_9/CMakeFiles/edit_cache.dir
-/Users/xingjunyang/CLionProjects/2022-CPL-Coding/cmake-build-debug/11.18_class_9/CMakeFiles/rebuild_cache.dir
+/Users/xingjunyang/CLionProjects/2022-CPL-Coding/cmake-build-debug/11.18_class_9/homework/CMakeFiles/edit_cache.dir
+/Users/xingjunyang/CLionProjects/2022-CPL-Coding/cmake-build-debug/11.18_class_9/homework/CMakeFiles/rebuild_cache.dir

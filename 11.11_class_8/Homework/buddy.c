@@ -4,7 +4,7 @@
 typedef struct node {
     int pos, size, id, nxt;
 } node;
-node buddy[3100005];
+node buddy[200005];
 int n, q, cnt = 0, head;
 
 node *newNode() {
@@ -63,6 +63,8 @@ void query() {
 }
 
 int main() {
+    freopen("inputOfBuddy.txt","r",stdin);
+    freopen("out.txt","w",stdout);
     scanf("%d%d", &n, &q);
     init();
     for (int i = 1; i <= q; i++) {
