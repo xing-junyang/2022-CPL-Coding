@@ -1,4 +1,7 @@
 /Users/xingjunyang/CLionProjects/2022-CPL-Coding/cmake-build-debug/CMakeFiles/edit_cache.dir
 /Users/xingjunyang/CLionProjects/2022-CPL-Coding/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/xingjunyang/CLionProjects/2022-CPL-Coding/cmake-build-debug/11.18_class_9/homework/CMakeFiles/intepreter.dir
+/Users/xingjunyang/CLionProjects/2022-CPL-Coding/cmake-build-debug/11.18_class_9/homework/CMakeFiles/substr.dir
+/Users/xingjunyang/CLionProjects/2022-CPL-Coding/cmake-build-debug/11.18_class_9/homework/CMakeFiles/title.dir
 /Users/xingjunyang/CLionProjects/2022-CPL-Coding/cmake-build-debug/11.18_class_9/homework/CMakeFiles/edit_cache.dir
 /Users/xingjunyang/CLionProjects/2022-CPL-Coding/cmake-build-debug/11.18_class_9/homework/CMakeFiles/rebuild_cache.dir

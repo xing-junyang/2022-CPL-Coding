@@ -65,6 +65,99 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 # /Users/xingjunyang/CLionProjects/2022-CPL-Coding/CMakeLists.txt
 # =============================================================================
 
+# =============================================================================
+# Object build statements for EXECUTABLE target intepreter
+
+
+#############################################
+# Order-only phony target for intepreter
+
+build cmake_object_order_depends_target_intepreter: phony || 11.18_class_9/homework/CMakeFiles/intepreter.dir
+
+build 11.18_class_9/homework/CMakeFiles/intepreter.dir/intepreter.c.o: C_COMPILER__intepreter_Debug /Users/xingjunyang/CLionProjects/2022-CPL-Coding/11.18_class_9/homework/intepreter.c || cmake_object_order_depends_target_intepreter
+  DEP_FILE = 11.18_class_9/homework/CMakeFiles/intepreter.dir/intepreter.c.o.d
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk -std=gnu11
+  OBJECT_DIR = 11.18_class_9/homework/CMakeFiles/intepreter.dir
+  OBJECT_FILE_DIR = 11.18_class_9/homework/CMakeFiles/intepreter.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target intepreter
+
+
+#############################################
+# Link the executable 11.18_class_9/homework/intepreter
+
+build 11.18_class_9/homework/intepreter: C_EXECUTABLE_LINKER__intepreter_Debug 11.18_class_9/homework/CMakeFiles/intepreter.dir/intepreter.c.o
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk
+  OBJECT_DIR = 11.18_class_9/homework/CMakeFiles/intepreter.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = 11.18_class_9/homework/intepreter
+  TARGET_PDB = intepreter.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target substr
+
+
+#############################################
+# Order-only phony target for substr
+
+build cmake_object_order_depends_target_substr: phony || 11.18_class_9/homework/CMakeFiles/substr.dir
+
+build 11.18_class_9/homework/CMakeFiles/substr.dir/substr.c.o: C_COMPILER__substr_Debug /Users/xingjunyang/CLionProjects/2022-CPL-Coding/11.18_class_9/homework/substr.c || cmake_object_order_depends_target_substr
+  DEP_FILE = 11.18_class_9/homework/CMakeFiles/substr.dir/substr.c.o.d
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk -std=gnu11
+  OBJECT_DIR = 11.18_class_9/homework/CMakeFiles/substr.dir
+  OBJECT_FILE_DIR = 11.18_class_9/homework/CMakeFiles/substr.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target substr
+
+
+#############################################
+# Link the executable 11.18_class_9/homework/substr
+
+build 11.18_class_9/homework/substr: C_EXECUTABLE_LINKER__substr_Debug 11.18_class_9/homework/CMakeFiles/substr.dir/substr.c.o
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk
+  OBJECT_DIR = 11.18_class_9/homework/CMakeFiles/substr.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = 11.18_class_9/homework/substr
+  TARGET_PDB = substr.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target title
+
+
+#############################################
+# Order-only phony target for title
+
+build cmake_object_order_depends_target_title: phony || 11.18_class_9/homework/CMakeFiles/title.dir
+
+build 11.18_class_9/homework/CMakeFiles/title.dir/title.c.o: C_COMPILER__title_Debug /Users/xingjunyang/CLionProjects/2022-CPL-Coding/11.18_class_9/homework/title.c || cmake_object_order_depends_target_title
+  DEP_FILE = 11.18_class_9/homework/CMakeFiles/title.dir/title.c.o.d
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk -std=gnu11
+  OBJECT_DIR = 11.18_class_9/homework/CMakeFiles/title.dir
+  OBJECT_FILE_DIR = 11.18_class_9/homework/CMakeFiles/title.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target title
+
+
+#############################################
+# Link the executable 11.18_class_9/homework/title
+
+build 11.18_class_9/homework/title: C_EXECUTABLE_LINKER__title_Debug 11.18_class_9/homework/CMakeFiles/title.dir/title.c.o
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk
+  OBJECT_DIR = 11.18_class_9/homework/CMakeFiles/title.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = 11.18_class_9/homework/title
+  TARGET_PDB = title.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -91,6 +184,12 @@ build 11.18_class_9/homework/rebuild_cache: phony 11.18_class_9/homework/CMakeFi
 # =============================================================================
 # Target aliases.
 
+build intepreter: phony 11.18_class_9/homework/intepreter
+
+build substr: phony 11.18_class_9/homework/substr
+
+build title: phony 11.18_class_9/homework/title
+
 # =============================================================================
 # Folder targets.
 
@@ -106,7 +205,7 @@ build all: phony 11.18_class_9/homework/all
 #############################################
 # Folder: /Users/xingjunyang/CLionProjects/2022-CPL-Coding/cmake-build-debug/11.18_class_9/homework
 
-build 11.18_class_9/homework/all: phony
+build 11.18_class_9/homework/all: phony 11.18_class_9/homework/intepreter 11.18_class_9/homework/substr 11.18_class_9/homework/title
 
 # =============================================================================
 # Built-in targets
