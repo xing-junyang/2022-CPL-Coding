@@ -10,12 +10,18 @@
 **************************************************/
 
 #include <stdio.h>
+#include <stdlib.h>
+#include <time.h>
 
 int main(){
     freopen("inputOfBuddy.txt","w",stdout);
-    printf("30 100000\n");
-    for(int i=1;i<=99999;i++){
-        printf("A %d 1\n",i);
+    printf("30 10000\n");
+    srand(time(0));
+    for(int i=1;i<=10000;i++){
+        if(rand()&1){
+            printf("A %d %d\n",i,rand()%1000+1);
+        }else{
+            printf("Q\n");
+        }
     }
-    printf("Q\n");
 }

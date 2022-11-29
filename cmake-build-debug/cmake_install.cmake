@@ -39,7 +39,12 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/Users/xingjunyang/CLionProjects/2022-CPL-Coding/cmake-build-debug/11.18_class_9/homework/cmake_install.cmake")
+  include("/Users/xingjunyang/CLionProjects/2022-CPL-Coding/cmake-build-debug/11.25_class_10/homework/cmake_install.cmake")
+endif()
+
+if(NOT CMAKE_INSTALL_LOCAL_ONLY)
+  # Include the install script for the subdirectory.
+  include("/Users/xingjunyang/CLionProjects/2022-CPL-Coding/cmake-build-debug/2022-Project-1/cmake_install.cmake")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT)
