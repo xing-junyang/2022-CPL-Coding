@@ -15,7 +15,6 @@
 #include <stdbool.h>
 #include <string.h>
 #include <ctype.h>
-#include <math.h>
 /*----------End of Include Section----------*/
 
 /*----------Begin of Typedef Section----------*/
@@ -33,9 +32,8 @@ typedef struct token {
     enum {
         Operator, Value, Bracket, Equal, Variable, ErrorToken
     } type;
-    char src[50];
+    char src[500];
     value val;
-    int bracketLevel;
     int bracketIdentifier;
 } token;
 
@@ -43,12 +41,12 @@ typedef struct expression {
     enum {
         Calc, Assignment, ErrorExpr
     } type;
-    token src[40];//start from 1;
+    token src[1200];//start from 1;
     int tokenCnt;
 } expression;
 
 typedef struct variable {
-    char name[50];
+    char name[500];
     value val;
 } variable;
 int varCnt = 0;
@@ -117,20 +115,18 @@ double processFloat(char *src) {
         return -1;
     }
     double ret = 0;
-    int beforePoint = 0;
-    int afterPoint = 0;
-    for (int i = 0; i < pointPos; i++) {
-        beforePoint += (src[i] - '0');
-        beforePoint *= 10;
+    for (int i = 0; i < len; i++) {
+        if(i==pointPos){
+            continue;
+        }
+        ret += (src[i] - '0');
+        ret *= 10;
     }
-    beforePoint /= 10;
-    ret += beforePoint;
-    for (int i = pointPos + 1; i < len; i++) {
-        afterPoint += (src[i] - '0');
-        afterPoint *= 10;
+    ret/=10;
+    for(int i=1;i<=((len - 1 - pointPos));i++){
+        ret/=10;
     }
-    afterPoint /= 10;
-    ret += (afterPoint * pow(10, -(len - 1 - pointPos)));
+    //ret += (afterPoint * pow(10, -(len - 1 - pointPos)));
     return ret;
 }
 
@@ -167,7 +163,9 @@ void printExprEval(expression src) {
             printf("%d\t", src.src[i].bracketIdentifier);
         }
         if (src.src[i].type == Value) {
-            printf("%d\t", src.src[i].val.type);
+            printf("%d(type)\t",src.src[i].val.type);
+            printf("%lf(float)\t", src.src[i].val.floatValue);
+            printf("%d(int)\t", src.src[i].val.intValue);
         }
         printf("\n");
     }
@@ -185,15 +183,19 @@ expression expressionEval(char *srcStr) {
     char tmp[100], tmpCnt = 0;
     memset(tmp, 0, sizeof(tmp));
     for (int i = 0; i < len; i++) {
-        if (srcStr[i] == ' ' && (tmpCnt)) {
-            strcpy((char *) &(ret.src[++ret.tokenCnt].src), tmp);
-            memset(tmp, 0, sizeof(tmp));
-            tmpCnt = 0;
+        if (srcStr[i] == ' ') {
+            if((tmpCnt)&&(strcmp(tmp," ")!=0)){
+                strcpy((char *) &(ret.src[++ret.tokenCnt].src), tmp);
+                memset(tmp, 0, sizeof(tmp));
+                tmpCnt = 0;
+            }
         } else {
             tmp[tmpCnt++] = srcStr[i];
         }
     }
-    strcpy((char *) &(ret.src[++ret.tokenCnt].src), tmp);
+    if((tmpCnt)&&(strcmp(tmp," ")!=0)){
+        strcpy((char *) &(ret.src[++ret.tokenCnt].src), tmp);
+    }
 
     /* analyze token */
     for (int i = 1; i <= ret.tokenCnt; i++) {
@@ -244,8 +246,6 @@ expression expressionEval(char *srcStr) {
                     return ret;
                 }
                 if (strcmp(stack[top]->src, "(") == 0) {
-                    stack[top]->bracketLevel = top;
-                    ret.src[i].bracketLevel = top;
                     stack[top]->bracketIdentifier = ++identifier;
                     ret.src[i].bracketIdentifier = identifier;
                     top--;
@@ -304,42 +304,28 @@ bool isMinus(int pos, int l, expression src){
     return false;
 }
 
-int findMainOperator(int l, int r, expression src) {
-    int bracketStatus = 0, mainOperatorPos = 0, mainOperatorType = 0;//1 for +-, 2 for */
-    int minusStatus = 0;
+int findMainOperator(int l, int r, expression *src) {
+    int bracketStatus = 0, mainOperatorPos = 0, mainOperatorType = 0, haveOperator=0;//1 for +-, 2 for */
     for (int i = l; i <= r; i++) {
-        token now = src.src[i];
+        token now = (*src).src[i];
         if (now.type == Bracket && (!bracketStatus)) {
             bracketStatus = now.bracketIdentifier;
         } else if (now.type == Bracket && bracketStatus == now.bracketIdentifier) {
             bracketStatus = 0;
         }
         if ((!bracketStatus) && now.type == Operator) {
-//            if (strcmp(now.src, "-") == 0 && i == l) {
-//                minusStatus = 1;
-//            }
-//            if (minusStatus && (now.type == Value || now.type == Variable)) {
-//                minusStatus = 0;
-//            }
+            haveOperator=1;
             if ((strcmp(now.src, "*") == 0 || strcmp(now.src, "/") == 0) && (mainOperatorType != 1)) {
                 mainOperatorPos = i;
                 mainOperatorType = 2;
-            } else if ((strcmp(now.src, "+") == 0 || (strcmp(now.src, "-") == 0 && (!isMinus(i,l,src))))) {
+            } else if ((strcmp(now.src, "+") == 0 || (strcmp(now.src, "-") == 0 && (!isMinus(i,l,*src))))) {
                 mainOperatorPos = i;
                 mainOperatorType = 1;
             }
-//            if ((!mainOperatorPos) && (strcmp(now.src, "*") == 0 || strcmp(now.src, "/") == 0)) {
-//                mainOperatorPos = i;
-//                mainOperatorType = 2;
-//            } else if ((!mainOperatorPos) &&
-//                       (strcmp(now.src, "+") == 0 || (strcmp(now.src, "-") == 0 && minusStatus == 0))) {
-//                mainOperatorPos = i;
-//                mainOperatorType = 1;
-//            } else if ((mainOperatorType == 2) && (strcmp(now.src, "+") == 0 || strcmp(now.src, "-") == 0)) {
-//                mainOperatorPos = i;
-//                mainOperatorType = 1;
-//            }
         }
+    }
+    if(!haveOperator){
+        return -1;
     }
     return mainOperatorPos;//0 for no main operator found;
 }
@@ -435,7 +421,7 @@ value valueCalc(value src1, value src2, char op) {
     return ret;
 }
 
-value valueEval(int l, int r, expression src) {
+value valueEval(int l, int r, expression *src) {
     /* preprocess */
     value ret;
     if (l > r) {
@@ -443,12 +429,12 @@ value valueEval(int l, int r, expression src) {
         return ret;
     }
     if (l == r) {
-        if (src.src[l].type == Value) {
-            return src.src[l].val;
-        } else if (src.src[l].type == Variable) {
+        if ((*src).src[l].type == Value) {
+            return (*src).src[l].val;
+        } else if ((*src).src[l].type == Variable) {
             bool variableFound = 0;
             for (int i = 1; i <= varCnt; i++) {
-                if (strcmp(src.src[l].src, varMap[i].name) == 0) {
+                if (strcmp((*src).src[l].src, varMap[i].name) == 0) {
                     variableFound = 1;
                     return varMap[i].val;
                 }
@@ -462,44 +448,40 @@ value valueEval(int l, int r, expression src) {
             return ret;
         }
     }
-    if (src.src[l].type == Bracket && src.src[r].type == Bracket &&
-        src.src[l].bracketIdentifier == src.src[r].bracketIdentifier) {
+    if ((*src).src[l].type == Bracket && (*src).src[r].type == Bracket &&
+            (*src).src[l].bracketIdentifier == (*src).src[r].bracketIdentifier) {
         return valueEval(l + 1, r - 1, src);
     }
 
     /* find main operator */
-    int mainOperatorPos = findMainOperator(l, r, src);
+    int mainOperatorPos = findMainOperator(l, r, (src));
     if (!mainOperatorPos) {
-//        if (!isValidMinusExpr(l, r, src)) {
-//            ret.type = ErrorVal;
-//            return ret;
-//        } else {
-//            if ((r - l) & 1) {
-//                ret.type = src.src[r].val.type;
-//                ret.floatValue = -src.src[r].val.floatValue;
-//                ret.intValue = -src.src[r].val.intValue;
-//                return ret;
-//            } else {
-//                return src.src[r].val;
-//            }
-//        }
         ret = valueEval(l + 1, r, src);
-        ret.floatValue = -ret.floatValue;
-        ret.intValue = -ret.intValue;
+        if(ret.type==Float){
+            ret.floatValue = (-1.0)*ret.floatValue;
+        }else if(ret.type==Int){
+            ret.intValue = -ret.intValue;
+        }else{
+            ret.type = ErrorVal;
+            return ret;
+        }
         return ret;
-    } else {
-        if (strcmp(src.src[mainOperatorPos].src, "+") == 0) {
+    } else if(mainOperatorPos!=-1) {
+        if (strcmp((*src).src[mainOperatorPos].src, "+") == 0) {
             return valueCalc(valueEval(l, mainOperatorPos - 1, src), valueEval(mainOperatorPos + 1, r, src), '+');
-        } else if (strcmp(src.src[mainOperatorPos].src, "-") == 0) {
+        } else if (strcmp((*src).src[mainOperatorPos].src, "-") == 0) {
             return valueCalc(valueEval(l, mainOperatorPos - 1, src), valueEval(mainOperatorPos + 1, r, src), '-');
-        } else if (strcmp(src.src[mainOperatorPos].src, "*") == 0) {
+        } else if (strcmp((*src).src[mainOperatorPos].src, "*") == 0) {
             return valueCalc(valueEval(l, mainOperatorPos - 1, src), valueEval(mainOperatorPos + 1, r, src), '*');
-        } else if (strcmp(src.src[mainOperatorPos].src, "/") == 0) {
+        } else if (strcmp((*src).src[mainOperatorPos].src, "/") == 0) {
             return valueCalc(valueEval(l, mainOperatorPos - 1, src), valueEval(mainOperatorPos + 1, r, src), '/');
         } else {
             ret.type = ErrorVal;
             return ret;
         }
+    }else{
+        ret.type = ErrorVal;
+        return ret;
     }
 }
 /*----End of Calculate Value----*/
@@ -515,13 +497,21 @@ value assignValue(expression src) {
             break;
         }
     }
-    ret = valueEval(lastEqualPos + 1, src.tokenCnt, src);
-    for (int i = lastEqualPos; i >= 1; i--) {
-        token now = src.src[i];
+    ret = valueEval(lastEqualPos + 1, src.tokenCnt, &src);
+    for(int i=lastEqualPos;i>=1;i--){
+        token now=src.src[i];
         if (now.type != Equal && now.type != Variable) {
             ret.type = ErrorVal;
             return ret;
+        }else if(now.type==Equal){
+            if(src.src[i-1].type!=Variable){
+                ret.type = ErrorVal;
+                return ret;
+            }
         }
+    }
+    for (int i = lastEqualPos; i >= 1; i--) {
+        token now = src.src[i];
         if (now.type == Variable) {
             bool variableFound = false;
             for (int j = 1; j <= varCnt; j++) {
@@ -564,11 +554,10 @@ int main() {
     char input[1200];
     while (gets(input) != NULL) {
         expression expr = expressionEval(input);
-//        printExprEval(expr);
         if (expr.type == Assignment) {
             printVal(assignValue(expr));
         } else if (expr.type == Calc) {
-            printVal(valueEval(1, expr.tokenCnt, expr));
+            printVal(valueEval(1, expr.tokenCnt, &expr));
         } else if (expr.type == ErrorExpr) {
             printf("Error\n");
         }
