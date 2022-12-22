@@ -39,7 +39,7 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/Users/xingjunyang/CLionProjects/2022-CPL-Coding/cmake-build-debug/12.2_class_11/cmake_install.cmake")
+  include("/Users/xingjunyang/CLionProjects/2022-CPL-Coding/cmake-build-debug/Miscellaneous_Projects/gym_chemical_problem/cmake_install.cmake")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT)

@@ -548,7 +548,7 @@ void printVal(value src) {
 /*----------Main Function Section----------*/
 int main() {
 
-//    freopen("in","r",stdin);
+    freopen("in","r",stdin);
 //    freopen("out","w",stdout);
 
     char input[1200];

@@ -42,7 +42,7 @@ cmake_ninja_workdir = /Users/xingjunyang/CLionProjects/2022-CPL-Coding/cmake-bui
 # Utility command for edit_cache
 
 build CMakeFiles/edit_cache.util: CUSTOM_COMMAND
-  COMMAND = cd /Users/xingjunyang/CLionProjects/2022-CPL-Coding/cmake-build-debug && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+  COMMAND = cd /Users/xingjunyang/CLionProjects/2022-CPL-Coding/cmake-build-debug && "/Users/xingjunyang/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/223.7571.171/CLion.app/Contents/bin/cmake/mac/bin/cmake" -E echo No\ interactive\ CMake\ dialog\ available.
   DESC = No interactive CMake dialog available...
   restat = 1
 
@@ -53,7 +53,7 @@ build edit_cache: phony CMakeFiles/edit_cache.util
 # Utility command for rebuild_cache
 
 build CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = cd /Users/xingjunyang/CLionProjects/2022-CPL-Coding/cmake-build-debug && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake --regenerate-during-build -S/Users/xingjunyang/CLionProjects/2022-CPL-Coding -B/Users/xingjunyang/CLionProjects/2022-CPL-Coding/cmake-build-debug
+  COMMAND = cd /Users/xingjunyang/CLionProjects/2022-CPL-Coding/cmake-build-debug && "/Users/xingjunyang/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/223.7571.171/CLion.app/Contents/bin/cmake/mac/bin/cmake" --regenerate-during-build -S/Users/xingjunyang/CLionProjects/2022-CPL-Coding -B/Users/xingjunyang/CLionProjects/2022-CPL-Coding/cmake-build-debug
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
@@ -65,31 +65,64 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 # /Users/xingjunyang/CLionProjects/2022-CPL-Coding/CMakeLists.txt
 # =============================================================================
 
+# =============================================================================
+# Object build statements for EXECUTABLE target gym_chemical_problem
+
+
+#############################################
+# Order-only phony target for gym_chemical_problem
+
+build cmake_object_order_depends_target_gym_chemical_problem: phony || Miscellaneous_Projects/gym_chemical_problem/CMakeFiles/gym_chemical_problem.dir
+
+build Miscellaneous_Projects/gym_chemical_problem/CMakeFiles/gym_chemical_problem.dir/gym_chemical_problem.c.o: C_COMPILER__gym_chemical_problem_Debug /Users/xingjunyang/CLionProjects/2022-CPL-Coding/Miscellaneous_Projects/gym_chemical_problem/gym_chemical_problem.c || cmake_object_order_depends_target_gym_chemical_problem
+  DEP_FILE = Miscellaneous_Projects/gym_chemical_problem/CMakeFiles/gym_chemical_problem.dir/gym_chemical_problem.c.o.d
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk -fcolor-diagnostics -std=gnu11
+  OBJECT_DIR = Miscellaneous_Projects/gym_chemical_problem/CMakeFiles/gym_chemical_problem.dir
+  OBJECT_FILE_DIR = Miscellaneous_Projects/gym_chemical_problem/CMakeFiles/gym_chemical_problem.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target gym_chemical_problem
+
+
+#############################################
+# Link the executable Miscellaneous_Projects/gym_chemical_problem/gym_chemical_problem
+
+build Miscellaneous_Projects/gym_chemical_problem/gym_chemical_problem: C_EXECUTABLE_LINKER__gym_chemical_problem_Debug Miscellaneous_Projects/gym_chemical_problem/CMakeFiles/gym_chemical_problem.dir/gym_chemical_problem.c.o
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk
+  OBJECT_DIR = Miscellaneous_Projects/gym_chemical_problem/CMakeFiles/gym_chemical_problem.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = Miscellaneous_Projects/gym_chemical_problem/gym_chemical_problem
+  TARGET_PDB = gym_chemical_problem.dbg
+
 
 #############################################
 # Utility command for edit_cache
 
-build 12.2_class_11/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
-  COMMAND = cd /Users/xingjunyang/CLionProjects/2022-CPL-Coding/cmake-build-debug/12.2_class_11 && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+build Miscellaneous_Projects/gym_chemical_problem/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
+  COMMAND = cd /Users/xingjunyang/CLionProjects/2022-CPL-Coding/cmake-build-debug/Miscellaneous_Projects/gym_chemical_problem && "/Users/xingjunyang/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/223.7571.171/CLion.app/Contents/bin/cmake/mac/bin/cmake" -E echo No\ interactive\ CMake\ dialog\ available.
   DESC = No interactive CMake dialog available...
   restat = 1
 
-build 12.2_class_11/edit_cache: phony 12.2_class_11/CMakeFiles/edit_cache.util
+build Miscellaneous_Projects/gym_chemical_problem/edit_cache: phony Miscellaneous_Projects/gym_chemical_problem/CMakeFiles/edit_cache.util
 
 
 #############################################
 # Utility command for rebuild_cache
 
-build 12.2_class_11/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = cd /Users/xingjunyang/CLionProjects/2022-CPL-Coding/cmake-build-debug/12.2_class_11 && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake --regenerate-during-build -S/Users/xingjunyang/CLionProjects/2022-CPL-Coding -B/Users/xingjunyang/CLionProjects/2022-CPL-Coding/cmake-build-debug
+build Miscellaneous_Projects/gym_chemical_problem/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
+  COMMAND = cd /Users/xingjunyang/CLionProjects/2022-CPL-Coding/cmake-build-debug/Miscellaneous_Projects/gym_chemical_problem && "/Users/xingjunyang/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/223.7571.171/CLion.app/Contents/bin/cmake/mac/bin/cmake" --regenerate-during-build -S/Users/xingjunyang/CLionProjects/2022-CPL-Coding -B/Users/xingjunyang/CLionProjects/2022-CPL-Coding/cmake-build-debug
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
 
-build 12.2_class_11/rebuild_cache: phony 12.2_class_11/CMakeFiles/rebuild_cache.util
+build Miscellaneous_Projects/gym_chemical_problem/rebuild_cache: phony Miscellaneous_Projects/gym_chemical_problem/CMakeFiles/rebuild_cache.util
 
 # =============================================================================
 # Target aliases.
+
+build gym_chemical_problem: phony Miscellaneous_Projects/gym_chemical_problem/gym_chemical_problem
 
 # =============================================================================
 # Folder targets.
@@ -99,14 +132,14 @@ build 12.2_class_11/rebuild_cache: phony 12.2_class_11/CMakeFiles/rebuild_cache.
 #############################################
 # Folder: /Users/xingjunyang/CLionProjects/2022-CPL-Coding/cmake-build-debug
 
-build all: phony 12.2_class_11/all
+build all: phony Miscellaneous_Projects/gym_chemical_problem/all
 
 # =============================================================================
 
 #############################################
-# Folder: /Users/xingjunyang/CLionProjects/2022-CPL-Coding/cmake-build-debug/12.2_class_11
+# Folder: /Users/xingjunyang/CLionProjects/2022-CPL-Coding/cmake-build-debug/Miscellaneous_Projects/gym_chemical_problem
 
-build 12.2_class_11/all: phony
+build Miscellaneous_Projects/gym_chemical_problem/all: phony Miscellaneous_Projects/gym_chemical_problem/gym_chemical_problem
 
 # =============================================================================
 # Built-in targets
@@ -115,14 +148,14 @@ build 12.2_class_11/all: phony
 #############################################
 # Re-run CMake if any of its inputs changed.
 
-build build.ninja: RERUN_CMAKE | ../12.2_class_11/CMakeLists.txt ../CMakeLists.txt /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeCInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeCommonLanguageInclude.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeGenericSystem.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeInitializeConfigs.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeLanguageInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeSystemSpecificInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeSystemSpecificInitialize.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/AppleClang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/CMakeCommonCompilerMacros.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/Clang.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/GNU.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/Apple-AppleClang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/Apple-Clang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/Apple-Clang.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/Darwin-Initialize.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/Darwin.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/UnixPaths.cmake CMakeCache.txt CMakeFiles/3.23.2/CMakeCCompiler.cmake CMakeFiles/3.23.2/CMakeSystem.cmake
+build build.ninja: RERUN_CMAKE | /Users/xingjunyang/CLionProjects/2022-CPL-Coding/CMakeLists.txt /Users/xingjunyang/CLionProjects/2022-CPL-Coding/Miscellaneous_Projects/gym_chemical_problem/CMakeLists.txt /Users/xingjunyang/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/223.7571.171/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeCInformation.cmake /Users/xingjunyang/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/223.7571.171/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeCommonLanguageInclude.cmake /Users/xingjunyang/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/223.7571.171/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeGenericSystem.cmake /Users/xingjunyang/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/223.7571.171/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeInitializeConfigs.cmake /Users/xingjunyang/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/223.7571.171/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeLanguageInformation.cmake /Users/xingjunyang/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/223.7571.171/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeSystemSpecificInformation.cmake /Users/xingjunyang/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/223.7571.171/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeSystemSpecificInitialize.cmake /Users/xingjunyang/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/223.7571.171/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/AppleClang-C.cmake /Users/xingjunyang/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/223.7571.171/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/CMakeCommonCompilerMacros.cmake /Users/xingjunyang/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/223.7571.171/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/Clang.cmake /Users/xingjunyang/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/223.7571.171/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/GNU.cmake /Users/xingjunyang/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/223.7571.171/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Apple-AppleClang-C.cmake /Users/xingjunyang/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/223.7571.171/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Apple-Clang-C.cmake /Users/xingjunyang/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/223.7571.171/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Apple-Clang.cmake /Users/xingjunyang/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/223.7571.171/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Darwin-Initialize.cmake /Users/xingjunyang/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/223.7571.171/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Darwin.cmake /Users/xingjunyang/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/223.7571.171/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/UnixPaths.cmake CMakeCache.txt CMakeFiles/3.24.2/CMakeCCompiler.cmake CMakeFiles/3.24.2/CMakeSystem.cmake
   pool = console
 
 
 #############################################
 # A missing CMake input file is not an error.
 
-build ../12.2_class_11/CMakeLists.txt ../CMakeLists.txt /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeCInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeCommonLanguageInclude.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeGenericSystem.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeInitializeConfigs.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeLanguageInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeSystemSpecificInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeSystemSpecificInitialize.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/AppleClang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/CMakeCommonCompilerMacros.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/Clang.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/GNU.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/Apple-AppleClang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/Apple-Clang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/Apple-Clang.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/Darwin-Initialize.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/Darwin.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/UnixPaths.cmake CMakeCache.txt CMakeFiles/3.23.2/CMakeCCompiler.cmake CMakeFiles/3.23.2/CMakeSystem.cmake: phony
+build /Users/xingjunyang/CLionProjects/2022-CPL-Coding/CMakeLists.txt /Users/xingjunyang/CLionProjects/2022-CPL-Coding/Miscellaneous_Projects/gym_chemical_problem/CMakeLists.txt /Users/xingjunyang/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/223.7571.171/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeCInformation.cmake /Users/xingjunyang/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/223.7571.171/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeCommonLanguageInclude.cmake /Users/xingjunyang/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/223.7571.171/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeGenericSystem.cmake /Users/xingjunyang/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/223.7571.171/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeInitializeConfigs.cmake /Users/xingjunyang/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/223.7571.171/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeLanguageInformation.cmake /Users/xingjunyang/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/223.7571.171/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeSystemSpecificInformation.cmake /Users/xingjunyang/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/223.7571.171/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeSystemSpecificInitialize.cmake /Users/xingjunyang/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/223.7571.171/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/AppleClang-C.cmake /Users/xingjunyang/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/223.7571.171/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/CMakeCommonCompilerMacros.cmake /Users/xingjunyang/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/223.7571.171/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/Clang.cmake /Users/xingjunyang/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/223.7571.171/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/GNU.cmake /Users/xingjunyang/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/223.7571.171/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Apple-AppleClang-C.cmake /Users/xingjunyang/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/223.7571.171/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Apple-Clang-C.cmake /Users/xingjunyang/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/223.7571.171/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Apple-Clang.cmake /Users/xingjunyang/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/223.7571.171/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Darwin-Initialize.cmake /Users/xingjunyang/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/223.7571.171/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Darwin.cmake /Users/xingjunyang/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/223.7571.171/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/UnixPaths.cmake CMakeCache.txt CMakeFiles/3.24.2/CMakeCCompiler.cmake CMakeFiles/3.24.2/CMakeSystem.cmake: phony
 
 
 #############################################

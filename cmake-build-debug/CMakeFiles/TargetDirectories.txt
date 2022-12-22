@@ -1,4 +1,5 @@
 /Users/xingjunyang/CLionProjects/2022-CPL-Coding/cmake-build-debug/CMakeFiles/edit_cache.dir
 /Users/xingjunyang/CLionProjects/2022-CPL-Coding/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-/Users/xingjunyang/CLionProjects/2022-CPL-Coding/cmake-build-debug/12.2_class_11/CMakeFiles/edit_cache.dir
-/Users/xingjunyang/CLionProjects/2022-CPL-Coding/cmake-build-debug/12.2_class_11/CMakeFiles/rebuild_cache.dir
+/Users/xingjunyang/CLionProjects/2022-CPL-Coding/cmake-build-debug/Miscellaneous_Projects/gym_chemical_problem/CMakeFiles/gym_chemical_problem.dir
+/Users/xingjunyang/CLionProjects/2022-CPL-Coding/cmake-build-debug/Miscellaneous_Projects/gym_chemical_problem/CMakeFiles/edit_cache.dir
+/Users/xingjunyang/CLionProjects/2022-CPL-Coding/cmake-build-debug/Miscellaneous_Projects/gym_chemical_problem/CMakeFiles/rebuild_cache.dir

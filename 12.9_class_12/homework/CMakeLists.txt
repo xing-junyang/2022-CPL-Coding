@@ -1,0 +1,5 @@
+add_executable(fifa fifa.c)
+add_executable(polynlist polynlist.c)
+add_executable(file-menagement file-menagement.c file-menagement.c)
+add_executable(string-hash string-hash.c)
+add_executable(gen gen.c)
